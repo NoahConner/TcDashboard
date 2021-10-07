@@ -247,7 +247,7 @@ nav .arrow{
 }
 .sideBard ~ .content{
     width: 80%;
-    padding: 0 3rem 0 2rem;
+    padding: 0 3rem 2rem 2rem;
 }
 .sideBardio .items .img{
     height: 45px;
@@ -308,11 +308,13 @@ nav .arrow{
 /* tabs */
 .tab-content h1,
 #add-trans h1,
-.task-main h1{
+.task-main h1,
+.mainH1{
     font-size: 32px;
     font-family: 'gilroyextrabold';
     color: var(--main-bg-color);
 }
+
 .col-lg-4 label,
 .col-lg-6 label,
 .col-lg-12  label{
@@ -390,13 +392,16 @@ nav .arrow{
     width: 100%;
 }
 .save-cancel-btn .save-btn,
-.get-tc-btn button{
+.get-tc-btn button,
+.blueBtnRound{
     background: #003EC9;
-    padding: 0.5rem 3rem;
+    /* padding: 0.5rem 3rem; */
     border: 1px solid #003EC9;
     border-radius: 40px;
     color:#fff;
     font-weight: 500;
+    height: 50px;
+    min-width: 130px;
 }
 .save-cancel-btn .cancel-btn{
     background: #fff;
@@ -408,21 +413,25 @@ nav .arrow{
 }
 .trans-cor{
     background: #F5FAFF;
-    padding: 2rem 1rem 2rem 3rem;
+    padding: 2rem;
     border-radius: 20px;
-    height: 270px;
+    /* height: 270px; */
 }
 .trans-cor h5{
     color:#003EC9;
+    font-family: 'gilroymedium';
 }
 .trans-cor h2,
 .calender-box h2{
     font-weight: 500;
-    color:#000;
+    color: #000;
+    font-family: 'gilroymedium';
+    font-size: 26px;
 }
-.get-tc-btn button{
+.get-tc-btn button,
+.squareBtn{
     border-radius: 10px;
-    padding: 1rem 4.5rem;
+    /* padding: 1rem 4.5rem; */
     font-weight:400;
 }
 .calender-box{
@@ -431,12 +440,12 @@ nav .arrow{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 270px;
+    height: 100%;
 }
 .transaction-box .col-lg-9 input{
     border: none;
     background: #f5faff;
-    padding: 0.7rem 2rem;
+    padding: 18px 3rem;
     border-radius: 10px;
     width: 100%;
 }
@@ -445,9 +454,10 @@ nav .arrow{
 }
 .transaction-box .col-lg-9 .search-inp i{
     position: absolute;
-    left: 5px;
-    top: 15px;
-    color:grey;
+    left: 15px;
+    top: 21px;
+    color: grey;
+    font-size: 18px;
 }
 .transaction-box .add-trans{
     padding: 0.5rem 1rem;
@@ -498,7 +508,7 @@ nav .arrow{
     padding:1rem;
     border-radius: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .det-cards .col-lg-4{
@@ -508,6 +518,7 @@ nav .arrow{
     padding: 1rem;
     width: 30%;
     background:#fff;
+    border-radius: 10px;
 }
 /* task tab */
 .task-main .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
@@ -543,10 +554,10 @@ nav .arrow{
     background:#f5faff;
     overflow: hidden;
 }
-.all-tasks-tab .row:nth-child(1){
+/* .all-tasks-tab .row:nth-child(1){
     background:#f5faff;
     padding:1rem;
-}
+} */
 .task-menu{
     transform:translateY(50px) ;
     opacity: 0;
@@ -561,6 +572,61 @@ nav .arrow{
 .task-menu ul{
     margin-bottom: 0 !important;
 }
+.limBlueCard{
+    background-color: #F5FAFF;
+    padding: 15px 8rem 15px 15px;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    position: relative;
+}
+.limBlueCard h2{
+    font-family: 'gilroymedium';
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.limBlueCard select{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #003ec98c;
+    width: 70%;
+    padding-bottom: 5px;
+    font-family: 'montregular';
+    font-size: 14px;
+}
+.limBlueCard label{
+    font-size: 16px;
+    font-family: 'montregular';
+    font-weight: 300;
+}
+.limBlueCard span{
+    color: #000;
+    font-family: gilroyextrabold;
+    padding-left: 10px;
+}
+.limBlueCard .phMail {
+    margin-top:10px
+}
+.limBlueCard .dots{
+    position: absolute;
+    right: 2%;
+    top: 35%;
+    cursor: pointer;
+}
+.limBlueCard .dots i{
+    font-size: 30px;
+    color: #003ec9;
+}
+
+.limBlueCard h2 ~ .phMail{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.task .limBlueCard select{
+    width: 100%;
+}
+
+
+
 /* commons */
 input,
 select,
@@ -774,6 +840,25 @@ a{
     }
 }
 @media only screen and (max-width:414px){
+    .limBlueCard .col-lg-12.d-flex.align-items-center.justify-content-between{
+        flex-wrap: wrap;
+    }
+    .limBlueCard {
+        padding: 15px 15px 15px 15px;
+    }
+    .limBlueCard h2 ~ .phMail{
+        margin-bottom: 0;
+        margin-top:20px
+    }
+    .limBlueCard .dots {
+        position: absolute;
+        right: 2%;
+        top: 8%;
+        cursor: pointer;
+    }
+    .limBlueCard .col-lg-4{
+        margin-top:1rem
+    }
     #profileInfoTab{
         display: flex;
         justify-content: space-between;
