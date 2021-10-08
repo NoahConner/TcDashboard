@@ -28,7 +28,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="transactionHeading mt3 d-flex align-items-center">
+                        <h3>
+                            4329 Saint Dominic, St Ann, MO 63074-1110
+                        </h3>
+                        <i class="fas fa-pencil-alt TranspencileIcon"></i>
+                    </div>
                 </div>
+
             </div>
         </div>
 
