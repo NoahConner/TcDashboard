@@ -172,4 +172,10 @@ $(document).ready(function(){
 $(".fa-ellipsis-v").on('click',()=>{
     $(".task-menu").toggleClass("show-menu")
 })
-
+// three dots js
+$(".three-dot1").on('click',()=>{
+    $(".dots-list1").toggleClass("hide-dot-menu")
+})
+$(".three-dot2").on('click',()=>{
+    $(".dots-list2").toggleClass("hide-dot-menu")
+})

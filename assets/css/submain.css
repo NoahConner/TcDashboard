@@ -2,3 +2,146 @@
 .paxs p{
     color: #000;
 }
+/* css by ahmed */
+.nav-pills .nav-link {
+    background: #f5faff !important;
+    border-radius: 10px !important;
+    margin: 10px 0 !important;
+    padding: 12px 1rem !important;
+    text-align: left !important;
+    color: #003ec9 !important;
+    font-weight:600;
+}
+.check-inp{
+    margin-left:10px;
+}
+.check-inp h6{
+    font-weight:600;
+}
+.cstm-check label,
+.example-det label,
+.example-modal p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #666666;
+}
+.example-det .example-date{
+    margin-left: 15px;
+}
+.modal .cstm-check{
+    background:#F5FAFF;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+}
+.modal-header {
+    background: #003EC9;
+    color: #fff;
+}
+
+.upload-modal .modal-header button{
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    color: #003ec9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+.upload-modal .col-sm-6:nth-child(2){
+    justify-content: flex-end;
+}
+.example-det{
+    display: flex;
+    flex-wrap: wrap;
+}
+.example-det label{
+    margin-right:10px;
+}
+.example1{
+    background: #f5faff;
+    padding:0.5rem 5rem 0.5rem 1rem;
+    border-radius:15px;
+    position: relative;
+}
+.example-modal .modal-body i{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+}
+.red-col a{
+    color:#FF0000 !important;
+}
+.add-note{
+    padding:0.7rem 1rem;
+    color:#003ec9;
+    border: 1px solid #003ec9;
+    border-radius: 10px;
+    background:#fff;
+    font-weight: 500;
+
+}
+/* three dots menu */
+.dots-list {
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    background: white;
+    box-shadow: 0px 0px 10px #00000047;
+    padding: 10px 14px 10px 10px;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    display: none;
+}
+
+.dots-list a {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    justify-content: center;
+}
+
+.dots-list a i {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    color: #B3B3B3;
+    font-size: 14px;
+}
+
+.dots-list a p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+    font-family: gilroymedium;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.dots-list a .icon-red {
+    color: red;
+}
+.hide-dot-menu{
+    display: block;
+}
+@media only screen and (max-width:768px){
+    .select-all-check{
+        margin-top: 15px;
+    }  
+    .upload-modal .col-lg-12:nth-child(1){
+        margin-bottom:15px !important;
+    }
+    .example1 {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+    .example-det .example-date {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width:375px){
+    .upload-modal .col-sm-6:nth-child(2){
+        margin-top: 5px;
+    }  
+}
