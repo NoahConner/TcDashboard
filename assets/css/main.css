@@ -954,7 +954,16 @@ h2 .fa-pencil-alt {
   color: #003ec9;
   cursor: pointer;
 }
-
+.limcustom {
+  padding: 33px 25px 20px 21px;
+}
+.limcustom label {
+  font-size: 15px;
+  font-family: gilroymedium;
+}
+.limcustom span {
+  font-family: GilroyMedium;
+}
 /* commons */
 
 input,
