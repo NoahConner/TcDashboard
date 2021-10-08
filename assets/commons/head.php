@@ -21,6 +21,8 @@
     <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg">
     <!-- main css -->
     <link rel="stylesheet" href="<?php  echo $backLink; ?>assets/css/main.css">
+     <!-- submain css -->
+     <link rel="stylesheet" href="<?php  echo $backLink; ?>assets/css/submain.css">
     <!-- bootstrap 5 css -->
     <link rel="stylesheet" href="<?php  echo $backLink; ?>assets/css/bootstrap.min.css">
     <!-- jquery -->

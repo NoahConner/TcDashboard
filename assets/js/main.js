@@ -164,9 +164,12 @@ $(document).ready(function(){
             },600)
         }
 	});
-    
+    if(window.innerWidth > 1024){
+        $('.mainDiv.my-scrollbar .main').css('min-height',window.innerHeight-82+'px')
+    }
 });
 // tasks menu
 $(".fa-ellipsis-v").on('click',()=>{
     $(".task-menu").toggleClass("show-menu")
 })
+

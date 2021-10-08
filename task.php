@@ -79,6 +79,34 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href=""> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                                 <div class="limBlueCard">
                                     <div class="row">
@@ -610,7 +638,7 @@
                                 </div>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
             </div>

@@ -15,105 +15,46 @@
             <?php include('./sider.php') ?>
             <div class="content">
                 <div class="transaction-box">
-                        <div class="row">
-                            <div class="col-lg-7 mt1">
-                                <div class="trans-cor">
-                                    <h5 class="mb1">Transaction Coordinator</h5>
-                                    <h2>Fast track your progress with a Transaction Coordinator</h2>
-                                    <div class="get-tc-btn mt2">
-                                        <button>Get a TC</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 mt1">
-                                <div class="calender-box">
-                                    <h2>Calender</h2>
+                    <div class="row">
+                        <div class="col-lg-7 mt1">
+                            <div class="trans-cor">
+                                <h5 class="mb1">Transaction Coordinator</h5>
+                                <h2>Fast track your progress with a Transaction Coordinator</h2>
+                                <div class="get-tc-btn mt2">
+                                    <button>Get a TC</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb1 mt1">
-                            <div class="col-lg-9 ">
-                                <div class="search-inp">
-                                    <input type="text" placeholder="Search...">
-                                    <i class='fa fa-search'></i>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                                <div class="save-cancel-btn d-flex justify-content-end">
-                                    <button class="save-btn add-trans" data-bs-toggle="modal" data-bs-target="#add-trans">Add Transaction</button>
-                                </div>
+                        <div class="col-lg-5 mt1">
+                            <div class="calender-box">
+                                <h2>Calender</h2>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="det-cards">
-                                    <div class="home-det-card">
-                                        <div class="home-card">
-                                            <div class="home-icon">
-                                                <img src="./assets/img/1x/home-icon.png" alt="">
-                                            </div>
-                                            <h6 class="mt1">4329 Saint Dominic, St Ann, MO
-                                                63074-1110</h6>
-                                            <div class="det d-flex">
-                                                <label for="">Type: </label>
-                                                <h6> Listing for Sale</h6>
-                                            </div>
-                                            <div class="det d-flex">
-                                                <label for="">Status: </label>
-                                                <h6> Active Listing</h6>
-                                            </div>
-                                            <div class="det d-flex">
-                                                <label for="">Listing: </label>
-                                                <h6> $5,000</h6>
-                                            </div>
-                                            <div class="date-details d-flex">
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Created: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
-                                                </div>
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Closing: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
-                                                </div>
-                                            </div>
+                    </div>
+                    <div class="row mb1 mt1">
+                        <div class="col-lg-9 ">
+                            <div class="search-inp">
+                                <input type="text" placeholder="Search...">
+                                <i class='fa fa-search'></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+                            <div class="save-cancel-btn d-flex justify-content-end">
+                                <a href="add-transaction.php">
+                                    <button class="save-btn add-trans">Add Transaction</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="det-cards">
+                                <div class="home-det-card">
+                                    <div class="home-card">
+                                        <div class="home-icon">
+                                            <img src="./assets/img/1x/home-icon.png" alt="">
                                         </div>
-                                    </div>
-                                    <div class="home-det-card">
-                                        <div class="home-card">
-                                            <div class="home-icon">
-                                                <img src="./assets/img/1x/home-icon.png" alt="">
-                                            </div>
-                                            <h6 class="mt1">4329 Saint Dominic, St Ann, MO
-                                                63074-1110</h6>
-                                            <div class="det d-flex">
-                                                <label for="">Type: </label>
-                                                <h6> Listing for Sale</h6>
-                                            </div>
-                                            <div class="det d-flex">
-                                                <label for="">Status: </label>
-                                                <h6> Active Listing</h6>
-                                            </div>
-                                            <div class="det d-flex">
-                                                <label for="">Listing: </label>
-                                                <h6> $5,000</h6>
-                                            </div>
-                                            <div class="date-details d-flex">
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Created: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
-                                                </div>
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Closing: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="home-det-card">
-                                        <div class="home-card">
-                                            <div class="home-icon">
-                                                <img src="./assets/img/1x/home-icon.png" alt="">
-                                            </div>
+                                        <div class="paxs">
                                             <h6 class="mt1">4329 Saint Dominic, St Ann, MO
                                                 63074-1110</h6>
                                             <div class="det d-flex">
@@ -141,8 +82,75 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="home-det-card">
+                                    <div class="home-card">
+                                        <div class="home-icon">
+                                            <img src="./assets/img/1x/home-icon.png" alt="">
+                                        </div>
+                                        <div class="paxs">
+                                            <h6 class="mt1">4329 Saint Dominic, St Ann, MO
+                                                63074-1110</h6>
+                                            <div class="det d-flex">
+                                                <label for="">Type: </label>
+                                                <h6> Listing for Sale</h6>
+                                            </div>
+                                            <div class="det d-flex">
+                                                <label for="">Status: </label>
+                                                <h6> Active Listing</h6>
+                                            </div>
+                                            <div class="det d-flex">
+                                                <label for="">Listing: </label>
+                                                <h6> $5,000</h6>
+                                            </div>
+                                            <div class="date-details d-flex">
+                                                <div class="date-lab d-flex">
+                                                    <label for="">Created: </label>
+                                                    <p> 09/09/2021, 2:45 AM</p>
+                                                </div>
+                                                <div class="date-lab d-flex">
+                                                    <label for="">Closing: </label>
+                                                    <p> 09/09/2021, 2:45 AM</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-det-card">
+                                    <div class="home-card">
+                                        <div class="home-icon">
+                                            <img src="./assets/img/1x/home-icon.png" alt="">
+                                        </div>
+                                        <div class="paxs">
+                                            <h6 class="mt1">4329 Saint Dominic, St Ann, MO
+                                                63074-1110</h6>
+                                            <div class="det d-flex">
+                                                <label for="">Type: </label>
+                                                <h6> Listing for Sale</h6>
+                                            </div>
+                                            <div class="det d-flex">
+                                                <label for="">Status: </label>
+                                                <h6> Active Listing</h6>
+                                            </div>
+                                            <div class="det d-flex">
+                                                <label for="">Listing: </label>
+                                                <h6> $5,000</h6>
+                                            </div>
+                                            <div class="date-details d-flex">
+                                                <div class="date-lab d-flex">
+                                                    <label for="">Created: </label>
+                                                    <p> 09/09/2021, 2:45 AM</p>
+                                                </div>
+                                                <div class="date-lab d-flex">
+                                                    <label for="">Closing: </label>
+                                                    <p> 09/09/2021, 2:45 AM</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
