@@ -51,101 +51,107 @@
                             <div class="det-cards">
                                 <div class="home-det-card">
                                     <div class="home-card">
-                                        <div class="home-icon">
-                                            <img src="./assets/img/1x/home-icon.png" alt="">
-                                        </div>
-                                        <div class="paxs">
-                                            <h6 class="mt1">4329 Saint Dominic, St Ann, MO
-                                                63074-1110</h6>
-                                            <div class="det d-flex">
-                                                <label for="">Type: </label>
-                                                <h6> Listing for Sale</h6>
+                                        <a href="transaction-inner.php">
+                                            <div class="home-icon">
+                                                <img src="./assets/img/1x/home-icon.png" alt="">
                                             </div>
-                                            <div class="det d-flex">
-                                                <label for="">Status: </label>
-                                                <h6> Active Listing</h6>
-                                            </div>
-                                            <div class="det d-flex">
-                                                <label for="">Listing: </label>
-                                                <h6> $5,000</h6>
-                                            </div>
-                                            <div class="date-details d-flex">
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Created: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
+                                            <div class="paxs">
+                                                <h6 class="mt1">4329 Saint Dominic, St Ann, MO
+                                                    63074-1110</h6>
+                                                <div class="det d-flex">
+                                                    <label for="">Type: </label>
+                                                    <h6> Listing for Sale</h6>
                                                 </div>
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Closing: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
+                                                <div class="det d-flex">
+                                                    <label for="">Status: </label>
+                                                    <h6> Active Listing</h6>
+                                                </div>
+                                                <div class="det d-flex">
+                                                    <label for="">Listing: </label>
+                                                    <h6> $5,000</h6>
+                                                </div>
+                                                <div class="date-details d-flex">
+                                                    <div class="date-lab d-flex">
+                                                        <label for="">Created: </label>
+                                                        <p> 09/09/2021, 2:45 AM</p>
+                                                    </div>
+                                                    <div class="date-lab d-flex">
+                                                        <label for="">Closing: </label>
+                                                        <p> 09/09/2021, 2:45 AM</p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="home-det-card">
                                     <div class="home-card">
-                                        <div class="home-icon">
-                                            <img src="./assets/img/1x/home-icon.png" alt="">
-                                        </div>
-                                        <div class="paxs">
-                                            <h6 class="mt1">4329 Saint Dominic, St Ann, MO
-                                                63074-1110</h6>
-                                            <div class="det d-flex">
-                                                <label for="">Type: </label>
-                                                <h6> Listing for Sale</h6>
+                                        <a href="">
+                                            <div class="home-icon">
+                                                <img src="./assets/img/1x/home-icon.png" alt="">
                                             </div>
-                                            <div class="det d-flex">
-                                                <label for="">Status: </label>
-                                                <h6> Active Listing</h6>
-                                            </div>
-                                            <div class="det d-flex">
-                                                <label for="">Listing: </label>
-                                                <h6> $5,000</h6>
-                                            </div>
-                                            <div class="date-details d-flex">
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Created: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
+                                            <div class="paxs">
+                                                <h6 class="mt1">4329 Saint Dominic, St Ann, MO
+                                                    63074-1110</h6>
+                                                <div class="det d-flex">
+                                                    <label for="">Type: </label>
+                                                    <h6> Listing for Sale</h6>
                                                 </div>
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Closing: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
+                                                <div class="det d-flex">
+                                                    <label for="">Status: </label>
+                                                    <h6> Active Listing</h6>
+                                                </div>
+                                                <div class="det d-flex">
+                                                    <label for="">Listing: </label>
+                                                    <h6> $5,000</h6>
+                                                </div>
+                                                <div class="date-details d-flex">
+                                                    <div class="date-lab d-flex">
+                                                        <label for="">Created: </label>
+                                                        <p> 09/09/2021, 2:45 AM</p>
+                                                    </div>
+                                                    <div class="date-lab d-flex">
+                                                        <label for="">Closing: </label>
+                                                        <p> 09/09/2021, 2:45 AM</p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="home-det-card">
                                     <div class="home-card">
-                                        <div class="home-icon">
-                                            <img src="./assets/img/1x/home-icon.png" alt="">
-                                        </div>
-                                        <div class="paxs">
-                                            <h6 class="mt1">4329 Saint Dominic, St Ann, MO
-                                                63074-1110</h6>
-                                            <div class="det d-flex">
-                                                <label for="">Type: </label>
-                                                <h6> Listing for Sale</h6>
+                                        <a href="">
+                                            <div class="home-icon">
+                                                <img src="./assets/img/1x/home-icon.png" alt="">
                                             </div>
-                                            <div class="det d-flex">
-                                                <label for="">Status: </label>
-                                                <h6> Active Listing</h6>
-                                            </div>
-                                            <div class="det d-flex">
-                                                <label for="">Listing: </label>
-                                                <h6> $5,000</h6>
-                                            </div>
-                                            <div class="date-details d-flex">
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Created: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
+                                            <div class="paxs">
+                                                <h6 class="mt1">4329 Saint Dominic, St Ann, MO
+                                                    63074-1110</h6>
+                                                <div class="det d-flex">
+                                                    <label for="">Type: </label>
+                                                    <h6> Listing for Sale</h6>
                                                 </div>
-                                                <div class="date-lab d-flex">
-                                                    <label for="">Closing: </label>
-                                                    <p> 09/09/2021, 2:45 AM</p>
+                                                <div class="det d-flex">
+                                                    <label for="">Status: </label>
+                                                    <h6> Active Listing</h6>
+                                                </div>
+                                                <div class="det d-flex">
+                                                    <label for="">Listing: </label>
+                                                    <h6> $5,000</h6>
+                                                </div>
+                                                <div class="date-details d-flex">
+                                                    <div class="date-lab d-flex">
+                                                        <label for="">Created: </label>
+                                                        <p> 09/09/2021, 2:45 AM</p>
+                                                    </div>
+                                                    <div class="date-lab d-flex">
+                                                        <label for="">Closing: </label>
+                                                        <p> 09/09/2021, 2:45 AM</p>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +169,7 @@
     <?php include './assets/commons/scripts.php' ?>
 </body>
 <!-- Modal -->
-<div class="modal fade" id="add-trans" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="add-trans" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-body">
@@ -209,6 +215,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 </html>
