@@ -2,3 +2,14 @@
 .paxs p{
     color: #000;
 }
+.dots-list{
+    opacity: 0;
+    transition: 0.2s all ease-in;
+}
+
+@media only screen and (max-width:414px){
+    .dots-list {
+        right: 23px;
+        top: 31px;
+    }
+}
