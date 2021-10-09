@@ -267,11 +267,11 @@
                     <div class="row">
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Executed Date</label>
-                            <input type="text" value="Dummy">
+                            <input type="date" value="Dummy">
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Closing Date</label>
-                            <input type="text" value="Dummy">
+                            <input type="date" value="Dummy">
                         </div>
                     </div>
 
@@ -301,14 +301,193 @@
                         </div>
                     </div>
 
-
-
-
-
-                    <div class="forbottommargin mb4">
+                    <!-- Contract Info -->
+                    <div class="mt3 mb2 d-flex align-items-center justify-content-between">
+                        <h1 class="mainH1">
+                            Contract Info
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Option Period Days </label>
+                            <input type="text" value=" 10 Days">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Financing Date </label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for=""> Survey</label>
+                            <input type="text" value="Dummy ">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for=""> Start Date</label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Contract Date </label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Option Period Ends </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Contracted Closing Date </label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for=""> Target Date</label>
+                            <input type="date" value="Dummy ">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Financing Deadline </label>
+                            <input type="text" value="Dummy ">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Scheduled Closing Date </label>
+                            <input type="date" value="Dummy ">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Move-In Date </label>
+                            <input type="date" value="Dummy ">
+                        </div>
 
                     </div>
 
+                    <!-- Referral -->
+                    <div class="mt3 mb2 d-flex align-items-center justify-content-between">
+                        <h1 class="mainH1">
+                            Referral
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Referral %</label>
+                            <input type="date" value="Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Referral Source</label>
+                            <input type="date" value="Dummy">
+                        </div>
+
+                    </div>
+
+                    <!-- Listing Information -->
+                    <div class="mt3 mb2 d-flex align-items-center justify-content-between">
+                        <h1 class="mainH1">
+                            Listing Information
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Expiration Date </label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Listing Date </label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Original Price </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Current Price </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">HomeOwner`s Association</label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">HomeOwner`s Association Dues </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Property Includes </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Property Excludes </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+
+                    </div>
+
+                    <!-- Geographic Discription -->
+                    <div class="mt3 mb2 d-flex align-items-center justify-content-between">
+                        <h1 class="mainH1">
+                            Geographic Discription
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Legal Discription</label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Subdivision</label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Lot</label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Section</label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Addition</label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Block </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                    </div>
+
+
+                    <!-- Property -->
+                    <div class="mt3 mb2 d-flex align-items-center justify-content-between">
+                        <h1 class="mainH1">
+                            Property
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Year Built</label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Bed Rooms</label>
+                            <input type="date" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Square Footage</label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">School District</label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Type </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Bathrooms </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                        <div class="col-lg-4 d-flex flex-column mb3">
+                            <label for="">Lot Size </label>
+                            <input type="text" value=" Dummy">
+                        </div>
+                    </div>
+                    <div class="save-cancel-btn d-flex justify-content-end mb3">
+                        <button class="save-btn">Save</button>
+                    </div>
                 </div>
 
             </div>

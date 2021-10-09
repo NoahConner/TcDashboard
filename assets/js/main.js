@@ -167,15 +167,31 @@ $(document).ready(function(){
     if(window.innerWidth > 1024){
         $('.mainDiv.my-scrollbar .main').css('min-height',window.innerHeight-82+'px')
     }
+    $('.dots-list').css({'opacity':"0","display":"none"})
+    $('.dots').on('click',(e)=>{
+        if(e.target.parentNode.nextElementSibling.style.opacity == 0){
+            e.target.parentNode.nextElementSibling.style.display = 'block'
+            setTimeout(()=>{
+                e.target.parentNode.nextElementSibling.style.opacity = '1'
+            },100)
+        }else{
+            e.target.parentNode.nextElementSibling.style.opacity = '0'
+            setTimeout(()=>{
+                e.target.parentNode.nextElementSibling.style.display = 'none'
+            },200)
+        }
+        console.log( )
+    })
+
 });
 // tasks menu
-$(".fa-ellipsis-v").on('click',()=>{
-    $(".task-menu").toggleClass("show-menu")
-})
-// three dots js
-$(".three-dot1").on('click',()=>{
-    $(".dots-list1").toggleClass("hide-dot-menu")
-})
-$(".three-dot2").on('click',()=>{
-    $(".dots-list2").toggleClass("hide-dot-menu")
-})
+// $(".fa-ellipsis-v").on('click',()=>{
+//     $(".task-menu").toggleClass("show-menu")
+// })
+// // three dots js
+// $(".three-dot1").on('click',()=>{
+//     $(".dots-list1").toggleClass("hide-dot-menu")
+// })
+// $(".three-dot2").on('click',()=>{
+//     $(".dots-list2").toggleClass("hide-dot-menu")
+// })

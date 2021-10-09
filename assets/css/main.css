@@ -532,7 +532,7 @@ nav .arrow {
 }
 
 .modal-body {
-  padding: 2rem !important;
+  padding:1rem 2rem !important;
 }
 
 #add-trans .add-transaction-box {
@@ -544,7 +544,9 @@ nav .arrow {
 #add-trans select {
   background: #f5faff;
 }
-
+.dots i{
+  color:#003ec9;
+}
 .home-card .home-icon {
   width: 100%;
   border: 2px solid #003ec9;
@@ -964,6 +966,215 @@ h2 .fa-pencil-alt {
 .limcustom span {
   font-family: GilroyMedium;
 }
+.transectiontsection .transsectionImgbox {
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 13%;
+  border: 1px solid var(--main-bg-color);
+}
+.transectionlabelpart h3 {
+  font-family: gilroymedium;
+  font-size: 25px;
+}
+.typeStatusSection {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.transCreatedbox1 {
+  font-family: gilroymedium;
+  color: grey;
+  margin: 10px 0;
+}
+.typeBox1 {
+  font-family: gilroymedium;
+  font-size: 17px;
+}
+.typeBox1 label {
+  color: #808080;
+  margin-right: 7px;
+}
+.typeBox1 span {
+  color: #000;
+  font-weight: 600;
+}
+.transectionDocumentsbox {
+  border: 1px solid var(--main-bg-color);
+  border-radius: 10px;
+}
+.documentsHeadingbox {
+  border-radius: 10px;
+  background-color: var(--main-bg-color);
+  color: #fff;
+  padding: 20px 20px;
+}
+.documentsHeadingbox h3 {
+  font-family: gilroybold;
+  font-size: 29px;
+}
+.documentsHeadingbox label {
+  font-family: gilroymedium;
+  font-size: 15px;
+  font-weight: 100;
+}
+.clientDocheading {
+  margin: 10px 0;
+}
+.clientDocheading h3 {
+  font-family: "gilroybold";
+  color: #003ec9;
+  font-weight: 600;
+}
+.docnumber label {
+  margin-left: 12px;
+  width: 26px;
+  height: 27px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #f7931e;
+  margin-top: 5px;
+  color: #fff;
+}
+.transShareFolderbox .transShareFolderbox1 {
+  font-family: gilroymedium;
+  margin: 5px 10px;
+}
+.transShareFolderbox .transShareFolderbox1 .newtransIcon {
+  color: #b3b3b3;
+}
+.transShareFolderbox .transShareFolderbox1 label {
+  color: #000;
+}
+.transShareFolderbox .transShareFolderbox1 .transred {
+  color: #ff0000;
+}
+.newcardforTrans {
+  color: #29abe2;
+}
+.custombtntrans {
+  background-color: #ffffff;
+  color: #003ec9;
+  font-weight: 500;
+}
+.transdivforpadding {
+  padding: 0 20px 0 20px;
+}
+.taskheading h5 {
+  font-family: "gilroybold";
+  color: #003ec9;
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.newcardforTrans2 {
+  display: flex;
+  padding: 15px 40px 15px 15px;
+  justify-content: space-between;
+}
+.transOnFile .onfiletransn {
+  margin-top: 18px;
+  background-color: #003ec9;
+  color: #fff;
+  font-family: gilroymedium;
+  font-size: 13px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.transOnFile .onApproved {
+  background-color: #39b54a;
+  margin-top: 18px;
+  color: #fff;
+  font-family: gilroymedium;
+  font-size: 13px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.transOnFile .onrequired {
+  background-color: #f7931e;
+  margin-top: 18px;
+  color: #fff;
+  font-family: gilroymedium;
+  font-size: 13px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.newcardforTransbg {
+  background-color: #f7931e4f;
+}
+.addAnothorDoc {
+  font-size: 15px;
+  color: #29abe2;
+  font-family: gilroymedium;
+}
+.addAnothorDoc .fas.fa-plus {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-right: 2px;
+}
+.phMail21 {
+  width: 280px;
+}
+/* new card */
+.transetctionbox {
+  background-color: #f5faff;
+  padding: 15px 53px 20px 15px;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+}
+.transectionheadingsubbox2 h5 {
+  font-family: "gilroymedium";
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #29abe2;
+  margin-bottom: 14px;
+}
+.ttbox1 {
+  margin-right: 89px;
+}
+.ttbox12 {
+  margin-right: 0;
+}
+.ttbox1 label {
+  font-size: 16px;
+  font-family: "montregular";
+  font-weight: 300;
+  color: #808080;
+}
+.ttbox1 span {
+  color: #000;
+  font-family: "gilroymedium";
+  padding-left: 10px;
+}
+.addbtntrans button {
+  margin-top: 18px;
+  background-color: #003ec9;
+  color: #fff;
+  font-family: gilroymedium;
+  font-size: 13px;
+  padding: 10px 30px 10px 29px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+.dotsss {
+  position: absolute;
+  right: 2%;
+  top: 39%;
+}
+.dotsss .fa.fa-ellipsis-v {
+  font-size: 30px;
+  color: #003ec9;
+}
 /* commons */
 
 input,
@@ -1150,6 +1361,19 @@ a {
 }
 
 /* media */
+@media only screen and (min-width: 2560px) {
+  .transectiontsection .transsectionImgbox {
+    padding-top: 5%;
+  }
+  .newcardforTrans2 {
+    padding: 15px 63px 15px 15px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .transectiontsection .transsectionImgbox {
+    padding-top: 14%;
+  }
+}
 
 @media only screen and (max-width: 1024px) {
   nav.navbar,
@@ -1191,6 +1415,15 @@ a {
     width: 350px;
     margin: 1rem;
   }
+  .transectionlabelpart {
+    margin-top: 15px;
+  }
+  .typeStatusSection {
+    flex-wrap: wrap;
+  }
+  .classforwor {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1204,6 +1437,19 @@ a {
   .transaction-box .col-lg-3 .save-cancel-btn {
     justify-content: center !important;
     margin-bottom: 2rem !important;
+  }
+  .transectiontsection .transsectionImgbox {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .ttbox1 {
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .newcardforTrans2 {
+    flex-direction: column;
   }
 }
 

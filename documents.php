@@ -19,7 +19,7 @@
                         Documents
                     </h1>
 
-                    <button class="blueBtnRound">New Folder</button>
+                    <button class="blueBtnRound" data-bs-toggle="modal" data-bs-target="#uploadModal">New Folder</button>
                 </div>
 
                 <!-- tabs -->
