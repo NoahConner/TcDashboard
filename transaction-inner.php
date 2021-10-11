@@ -112,13 +112,13 @@
                             <div class="transShareFolderbox d-flex justify-content-end">
                                 <div class="transShareFolderbox1">
                                     <i class="fas fa-share-alt-square newtransIcon"></i>
-                                    <label for="">
+                                    <label for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
                                         Share Folder
                                     </label>
                                 </div>
                                 <div class="transShareFolderbox1">
                                     <i class="fas fa-archive newtransIcon"></i>
-                                    <label class="transred" for="">
+                                    <label class="transred" for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
                                         Share Folder
                                     </label>
                                 </div>
@@ -157,6 +157,33 @@
                                 <div class="dots">
                                     <i class="fa fa-ellipsis-v"></i>
                                 </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
+                                </div>
                             </div>
                             <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
                                 <div class="row">
@@ -191,6 +218,33 @@
                                 </div>
                                 <div class="dots">
                                     <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -229,6 +283,33 @@
 
                                 <div class="dots">
                                     <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="limBlueCard newcardforTrans  newcardforTrans2 newcardforTransbg  mb2">
@@ -259,10 +340,37 @@
                                 <div class="dots">
                                     <i class="fa fa-ellipsis-v"></i>
                                 </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
+                                </div>
                             </div>
                             <div class="addAnothorDoc d-flex justify-content-end">
                                 <i class="fas fa-plus"></i>
-                                <label for="">
+                                <label for="" data-bs-toggle="modal" data-bs-target="#uploadModal">
                                     Add Another Document
                                 </label>
                             </div>
@@ -280,13 +388,13 @@
                             <div class="transShareFolderbox d-flex justify-content-end">
                                 <div class="transShareFolderbox1">
                                     <i class="fas fa-share-alt-square newtransIcon"></i>
-                                    <label for="">
+                                    <label for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
                                         Share Folder
                                     </label>
                                 </div>
                                 <div class="transShareFolderbox1">
                                     <i class="fas fa-archive newtransIcon"></i>
-                                    <label class="transred" for="">
+                                    <label class="transred" for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
                                         Share Folder
                                     </label>
                                 </div>
@@ -327,6 +435,33 @@
                                 <div class="dots">
                                     <i class="fa fa-ellipsis-v"></i>
                                 </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
+                                </div>
                             </div>
                             <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
                                 <div class="row">
@@ -363,6 +498,33 @@
 
                                 <div class="dots">
                                     <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="limBlueCard newcardforTrans  newcardforTrans2 newcardforTransbg  mb2">
@@ -406,10 +568,37 @@
                                 <div class="dots">
                                     <i class="fa fa-ellipsis-v"></i>
                                 </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
+                                </div>
                             </div>
                             <div class="addAnothorDoc d-flex justify-content-end">
                                 <i class="fas fa-plus"></i>
-                                <label for="">
+                                <label for="" data-bs-toggle="modal" data-bs-target="#uploadModal">
                                     Add Another Document
                                 </label>
                             </div>
@@ -426,7 +615,7 @@
                                     Use tasks to coordinate activities with others. </label>
                             </div>
                             <div class="documentsHeadingsunboxbutton">
-                                <button class="blueBtnRound squareBtn custombtntrans">Add</button>
+                                <button class="blueBtnRound squareBtn custombtntrans" data-bs-toggle="modal" data-bs-target="#taskModal">Add</button>
                             </div>
 
                         </div>
@@ -517,7 +706,7 @@
                                 </label>
                             </div>
                             <div class="documentsHeadingsunboxbutton">
-                                <button class="blueBtnRound squareBtn custombtntrans">Add</button>
+                                <button class="blueBtnRound squareBtn custombtntrans" data-bs-toggle="modal" data-bs-target="#teamModal">Add</button>
                             </div>
 
                         </div>

@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="home-det-card">
                                     <div class="home-card">
-                                        <a href="">
+                                        <a href="transaction-inner.php">
                                             <div class="home-icon">
                                                 <img src="./assets/img/1x/home-icon.png" alt="">
                                             </div>
@@ -121,7 +121,7 @@
                                 </div>
                                 <div class="home-det-card">
                                     <div class="home-card">
-                                        <a href="">
+                                        <a href="transaction-inner.php">
                                             <div class="home-icon">
                                                 <img src="./assets/img/1x/home-icon.png" alt="">
                                             </div>

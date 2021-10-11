@@ -79,7 +79,7 @@ nav .nav-item.btns .nav-link:hover {
   box-shadow: none;
 }
 
-nav ul.navbar-nav > * + * {
+nav ul.navbar-nav>*+* {
   margin-left: 15px;
 }
 
@@ -91,18 +91,22 @@ nav ul.navbar-nav > * + * {
   font-family: gilroyextrabold;
   font-size: 30px !important;
 }
+
 .navbar.navbar-expand-lg {
   position: fixed;
   width: 100%;
   z-index: 1050;
 }
+
 .mainDiv.my-scrollbar {
   padding-top: 82px;
   min-height: 100vh;
 }
+
 .mainDiv.my-scrollbar .main {
   height: 100%;
 }
+
 .notiIco {
   background-color: #f5faff;
   padding: 5px 11px;
@@ -218,13 +222,13 @@ button.signOut span {
   margin-right: 15px;
 }
 
-.imaghe ~ .name span:last-child {
+.imaghe~.name span:last-child {
   color: #808080;
   font-size: 11px;
   font-family: "gilroybold";
 }
 
-.imaghe ~ .name span:first-child {
+.imaghe~.name span:first-child {
   color: #000;
   font-family: gilroybold;
 }
@@ -283,7 +287,7 @@ nav .arrow {
   padding-top: 4rem;
 }
 
-.sideBard ~ .content {
+.sideBard~.content {
   width: 80%;
   padding: 0 3rem 2rem 2rem;
 }
@@ -375,11 +379,11 @@ nav .arrow {
   font-family: "montregular";
 }
 
-.col-lg-4 label ~ input,
-.col-lg-6 label ~ input,
-.col-lg-4 label ~ select,
-.col-lg-6 label ~ select,
-.col-lg-12 label ~ input {
+.col-lg-4 label~input,
+.col-lg-6 label~input,
+.col-lg-4 label~select,
+.col-lg-6 label~select,
+.col-lg-12 label~input {
   border: none;
   border-bottom: 1.5px solid #999999;
   font-family: gilroybold;
@@ -432,12 +436,12 @@ nav .arrow {
   visibility: hidden;
 }
 
-.round input[type="checkbox"]:checked + label {
+.round input[type="checkbox"]:checked+label {
   background-color: #003ec9;
   border-color: #003ec9;
 }
 
-.round input[type="checkbox"]:checked + label:after {
+.round input[type="checkbox"]:checked+label:after {
   opacity: 1;
 }
 
@@ -532,7 +536,7 @@ nav .arrow {
 }
 
 .modal-body {
-  padding:1rem 2rem !important;
+  padding: 1rem 2rem !important;
 }
 
 #add-trans .add-transaction-box {
@@ -544,9 +548,11 @@ nav .arrow {
 #add-trans select {
   background: #f5faff;
 }
-.dots i{
-  color:#003ec9;
+
+.dots i {
+  color: #003ec9;
 }
+
 .home-card .home-icon {
   width: 100%;
   border: 2px solid #003ec9;
@@ -601,6 +607,7 @@ nav .arrow {
   background: #fff;
   border-radius: 10px;
 }
+
 .det-cards .home-det-card .paxs {
   padding: 0 1rem;
 }
@@ -608,7 +615,7 @@ nav .arrow {
 /* task tab */
 
 .task-main .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
   color: #fff !important;
   background-color: #003ec9 !important;
   border-radius: 10px;
@@ -658,9 +665,11 @@ nav .arrow {
   color: var(--main-bg-color) !important;
   font-size: 14px;
 }
+
 .searchInp {
   position: relative;
 }
+
 .searchInp i {
   position: absolute;
   top: 5px;
@@ -668,6 +677,7 @@ nav .arrow {
   color: lightgrey;
   font-size: 18px;
 }
+
 .searchInp input {
   font-family: montsemibold;
   font-size: 14px;
@@ -676,17 +686,20 @@ nav .arrow {
   border-bottom: 2px solid lightgray;
   padding: 0px 10px 5px 34px;
 }
+
 .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills .show>.nav-link {
   background-color: var(--main-bg-color) !important;
   color: #fff !important;
 }
+
 .col-lg-12 h3 {
   font-family: "gilroybold";
   font-size: 24px;
   color: var(--main-bg-color);
   margin: 0;
 }
+
 /* .all-tasks-tab .row:nth-child(1){
     background:#f5faff;
     padding:1rem;
@@ -722,6 +735,7 @@ nav .arrow {
   font-size: 24px;
   margin-bottom: 10px;
 }
+
 h2 .fa-pencil-alt {
   color: var(--main-bg-color);
   font-size: 16px;
@@ -759,6 +773,7 @@ h2 .fa-pencil-alt {
 
 .limBlueCard .phMail {
   margin-top: 10px;
+  align-items: baseline !important;
 }
 
 .limBlueCard .dots {
@@ -773,7 +788,7 @@ h2 .fa-pencil-alt {
   color: #003ec9;
 }
 
-.limBlueCard h2 ~ .phMail {
+.limBlueCard h2~.phMail {
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -890,6 +905,9 @@ h2 .fa-pencil-alt {
   align-items: center;
   margin-bottom: 0%;
 }
+.transiction-inner .dots-list{
+  top:60px;
+}
 /* dot list */
 .dots-list {
   position: absolute;
@@ -901,7 +919,8 @@ h2 .fa-pencil-alt {
   border-radius: 10px;
   z-index: 1;
 }
-.dots-list > * + * {
+
+.dots-list>*+* {
   margin-top: 5px;
 }
 
@@ -932,6 +951,7 @@ h2 .fa-pencil-alt {
 .dots-list a .icon-red {
   color: red;
 }
+
 .back i {
   color: var(--main-bg-color);
   background-color: #f5faff;
@@ -939,6 +959,7 @@ h2 .fa-pencil-alt {
   border-radius: 50px;
   cursor: pointer;
 }
+
 .back span {
   color: var(--main-bg-color);
   font-family: "montsemibold";
@@ -950,22 +971,27 @@ h2 .fa-pencil-alt {
 .transactionHeading h3 {
   font-family: gilroymedium;
 }
+
 .TranspencileIcon {
   margin-left: 7px;
   margin-bottom: 7px;
   color: #003ec9;
   cursor: pointer;
 }
+
 .limcustom {
   padding: 33px 25px 20px 21px;
 }
+
 .limcustom label {
   font-size: 15px;
   font-family: gilroymedium;
 }
+
 .limcustom span {
   font-family: GilroyMedium;
 }
+
 .transectiontsection .transsectionImgbox {
   height: 100%;
   border-radius: 10px;
@@ -973,58 +999,71 @@ h2 .fa-pencil-alt {
   padding-top: 13%;
   border: 1px solid var(--main-bg-color);
 }
+
 .transectionlabelpart h3 {
   font-family: gilroymedium;
   font-size: 25px;
 }
+
 .typeStatusSection {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .transCreatedbox1 {
   font-family: gilroymedium;
   color: grey;
   margin: 10px 0;
 }
+
 .typeBox1 {
   font-family: gilroymedium;
   font-size: 17px;
 }
+
 .typeBox1 label {
   color: #808080;
   margin-right: 7px;
 }
+
 .typeBox1 span {
   color: #000;
   font-weight: 600;
 }
+
 .transectionDocumentsbox {
   border: 1px solid var(--main-bg-color);
   border-radius: 10px;
 }
+
 .documentsHeadingbox {
   border-radius: 10px;
   background-color: var(--main-bg-color);
   color: #fff;
   padding: 20px 20px;
 }
+
 .documentsHeadingbox h3 {
   font-family: gilroybold;
   font-size: 29px;
 }
+
 .documentsHeadingbox label {
   font-family: gilroymedium;
   font-size: 15px;
   font-weight: 100;
 }
+
 .clientDocheading {
   margin: 10px 0;
 }
+
 .clientDocheading h3 {
   font-family: "gilroybold";
   color: #003ec9;
   font-weight: 600;
 }
+
 .docnumber label {
   margin-left: 12px;
   width: 26px;
@@ -1035,30 +1074,38 @@ h2 .fa-pencil-alt {
   margin-top: 5px;
   color: #fff;
 }
+
 .transShareFolderbox .transShareFolderbox1 {
   font-family: gilroymedium;
   margin: 5px 10px;
 }
+
 .transShareFolderbox .transShareFolderbox1 .newtransIcon {
   color: #b3b3b3;
 }
+
 .transShareFolderbox .transShareFolderbox1 label {
   color: #000;
 }
+
 .transShareFolderbox .transShareFolderbox1 .transred {
   color: #ff0000;
 }
+
 .newcardforTrans {
   color: #29abe2;
 }
+
 .custombtntrans {
   background-color: #ffffff;
   color: #003ec9;
   font-weight: 500;
 }
+
 .transdivforpadding {
   padding: 0 20px 0 20px;
 }
+
 .taskheading h5 {
   font-family: "gilroybold";
   color: #003ec9;
@@ -1066,11 +1113,13 @@ h2 .fa-pencil-alt {
   font-size: 25px;
   margin-top: 20px;
 }
+
 .newcardforTrans2 {
   display: flex;
   padding: 15px 40px 15px 15px;
   justify-content: space-between;
 }
+
 .transOnFile .onfiletransn {
   margin-top: 18px;
   background-color: #003ec9;
@@ -1082,6 +1131,7 @@ h2 .fa-pencil-alt {
   outline: none;
   border: none;
 }
+
 .transOnFile .onApproved {
   background-color: #39b54a;
   margin-top: 18px;
@@ -1093,6 +1143,7 @@ h2 .fa-pencil-alt {
   outline: none;
   border: none;
 }
+
 .transOnFile .onrequired {
   background-color: #f7931e;
   margin-top: 18px;
@@ -1104,22 +1155,27 @@ h2 .fa-pencil-alt {
   outline: none;
   border: none;
 }
+
 .newcardforTransbg {
   background-color: #f7931e4f;
 }
+
 .addAnothorDoc {
   font-size: 15px;
   color: #29abe2;
   font-family: gilroymedium;
 }
+
 .addAnothorDoc .fas.fa-plus {
   font-size: 13px;
   margin-top: 5px;
   margin-right: 2px;
 }
+
 .phMail21 {
   width: 280px;
 }
+
 /* new card */
 .transetctionbox {
   background-color: #f5faff;
@@ -1131,6 +1187,7 @@ h2 .fa-pencil-alt {
   justify-content: space-between;
   z-index: -1;
 }
+
 .transectionheadingsubbox2 h5 {
   font-family: "gilroymedium";
   font-size: 24px;
@@ -1138,23 +1195,28 @@ h2 .fa-pencil-alt {
   color: #29abe2;
   margin-bottom: 14px;
 }
+
 .ttbox1 {
   margin-right: 89px;
 }
+
 .ttbox12 {
   margin-right: 0;
 }
+
 .ttbox1 label {
   font-size: 16px;
   font-family: "montregular";
   font-weight: 300;
   color: #808080;
 }
+
 .ttbox1 span {
   color: #000;
   font-family: "gilroymedium";
   padding-left: 10px;
 }
+
 .addbtntrans button {
   margin-top: 18px;
   background-color: #003ec9;
@@ -1166,15 +1228,18 @@ h2 .fa-pencil-alt {
   outline: none;
   border: none;
 }
+
 .dotsss {
   position: absolute;
   right: 2%;
   top: 39%;
 }
+
 .dotsss .fa.fa-ellipsis-v {
   font-size: 30px;
   color: #003ec9;
 }
+
 /* commons */
 
 input,
@@ -1365,10 +1430,12 @@ a {
   .transectiontsection .transsectionImgbox {
     padding-top: 5%;
   }
+
   .newcardforTrans2 {
     padding: 15px 63px 15px 15px;
   }
 }
+
 @media only screen and (max-width: 1366px) {
   .transectiontsection .transsectionImgbox {
     padding-top: 14%;
@@ -1376,17 +1443,21 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
+
   nav.navbar,
   .sideBard {
     display: none !important;
   }
+
   #nav-icon1 {
     display: block;
   }
-  .sideBard ~ .content {
+
+  .sideBard~.content {
     width: 100%;
     padding: 0 1rem 2rem 1rem;
   }
+
   .mobileNav {
     display: flex;
     position: fixed;
@@ -1399,101 +1470,190 @@ a {
     align-items: center;
     padding-left: 1rem;
   }
+
   .mobileNav a {
     color: var(--main-bg-color);
     font-family: gilroyextrabold;
     font-size: 30px !important;
   }
+
   .main {
     margin-top: 90px;
   }
+
   /* transaction tab sec */
   .det-cards {
     justify-content: flex-start;
   }
+
   .det-cards .home-det-card {
     width: 350px;
     margin: 1rem;
   }
+
   .transectionlabelpart {
     margin-top: 15px;
   }
+
   .typeStatusSection {
     flex-wrap: wrap;
   }
+
   .classforwor {
     flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar-nav ~ .signOut {
+  .navbar-nav~.signOut {
     display: none !important;
   }
+
   /* transaction tab sec */
   .det-cards .home-det-card {
     width: 330px;
   }
+
   .transaction-box .col-lg-3 .save-cancel-btn {
     justify-content: center !important;
-    margin-bottom: 2rem !important;
-  }
+    margin-bottom: 0 !important;
+    margin-top: 1rem;
+}
+
   .transectiontsection .transsectionImgbox {
     padding-top: 45px;
     padding-bottom: 45px;
   }
+
   .ttbox1 {
     margin-right: 30px;
   }
+  .det-cards {
+    justify-content: center;
+}
+.det-cards .home-det-card {
+  width: 100%;
+  padding: 1rem;
+}
+.det-cards .home-det-card .paxs {
+  padding: 0;
+}
+.transaction-form .row{
+  margin-top: 0 !important;
+}
+.transaction-form .row .col-lg-6{
+  margin-top: 1rem !important;
+}
 }
 
 @media only screen and (max-width: 600px) {
   .newcardforTrans2 {
     flex-direction: column;
   }
+
+  .limBlueCard h2 {
+    font-size: 20px;
+  }
+
+  .limBlueCard label {
+    font-size: 14px;
+  }
+
+  .limBlueCard span {
+    font-size: 14px;
+  }
+  .limBlueCard select {
+    margin-top: 10px;
+}
 }
 
 @media only screen and (max-width: 414px) {
   .mainDiv.my-scrollbar {
     padding-top: 0px;
   }
-  .col-lg-12 h3 ~ a {
+
+  .col-lg-12 h3~a {
     text-align: right;
   }
+
   .col-lg-12 h {
     font-size: 20px;
   }
+
   .limBlueCard .col-lg-12.d-flex.align-items-center.justify-content-between {
     flex-wrap: wrap;
   }
+
   .limBlueCard {
     padding: 15px 15px 15px 15px;
   }
-  .limBlueCard h2 ~ .phMail {
+
+  .limBlueCard h2~.phMail {
     margin-bottom: 0;
     margin-top: 20px;
   }
+
   .limBlueCard .dots {
     position: absolute;
     right: 2%;
     top: 8%;
     cursor: pointer;
   }
+
   .limBlueCard .col-lg-4 {
     margin-top: 1rem;
   }
+
   #profileInfoTab {
     display: flex;
     justify-content: space-between;
   }
+
   #profileInfoTab .nav-item button {
     font-size: 14px;
   }
+
   #profileInfoTab .nav-link {
     padding: 11px 12px;
   }
+
   /* transaction tab sec */
   .det-cards .home-det-card {
     width: 100%;
   }
+  .limBlueCard h2 a {
+    font-size: 16px;
+}
+}
+@media only screen and (max-width:375px){
+  .limBlueCard .row .col-sm-12{
+    align-items: baseline !important;
+  }
+  .limBlueCard h2~.phMail {
+    margin-top: 0;
+}
+.home-card .home-icon img {
+  width: 30px;
+  height: 30px;
+}
+}
+@media only screen and (max-width:320px){
+  .limBlueCard select {
+    font-size: 11px;
+}
+.limBlueCard span {
+  font-size: 11px;
+}
+.limBlueCard label {
+  font-size: 11px;
+}
+.limBlueCard h2 {
+  font-size: 14px;
+}
+.tab-content h1, #add-trans h1, .task-main h1, .mainH1 {
+  font-size: 20px;
+}
+.transaction-page .d-flex.justify-content-end.mt3{
+  justify-content:center !important;
+}
 }

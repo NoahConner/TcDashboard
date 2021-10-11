@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end mt3">
-                        <button class="transparent-transaction-button">Cencel</button>
+                        <button class="transparent-transaction-button">Cancel</button>
                         <a href="add-transaction-inner.php">
                             <button class="blueBtnRound">Next</button>
                         </a>

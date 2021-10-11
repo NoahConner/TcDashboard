@@ -15,7 +15,7 @@
             <!-- sider -->
             <?php include('./sider.php') ?>
             <div class="content mt2">
-                <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center justify-content-between peo-head">
                     <h1 class="mainH1">
                         Agent/Broker Partner
                     </h1>
@@ -57,43 +57,43 @@
                         </div>
                         <div class="dots-list">
                             <!-- <div class="d-flex">
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-eye"></i>
                                                 <p>view</p>
                                             </a>
                                         </div>
                                         <div class="d-flex">
-                                            <a href=""> <i class="fas fa-share-alt"></i>
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
                                                 <p>Share</p>
                                             </a>
 
                                         </div>
                                         <div>
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-clipboard"></i>
                                                 <p>Review</p>
                                             </a>
                                         </div>
                                         <div class="d-flex">
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-archive"></i>
                                                 <p class="icon-red">Archive</p>
                                             </a>
                                         </div> -->
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-clipboard"></i>
                                     <p>Notes</p>
                                 </a>
                             </div>
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-pencil-alt"></i>
                                     <p>Edit</p>
                                 </a>
                             </div>
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-trash"></i>
                                     <p class="icon-red">Delete</p>
                                 </a>
@@ -133,43 +133,43 @@
                         </div>
                         <div class="dots-list">
                             <!-- <div class="d-flex">
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-eye"></i>
                                                 <p>view</p>
                                             </a>
                                         </div>
                                         <div class="d-flex">
-                                            <a href=""> <i class="fas fa-share-alt"></i>
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
                                                 <p>Share</p>
                                             </a>
 
                                         </div>
                                         <div>
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-clipboard"></i>
                                                 <p>Review</p>
                                             </a>
                                         </div>
                                         <div class="d-flex">
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-archive"></i>
                                                 <p class="icon-red">Archive</p>
                                             </a>
                                         </div> -->
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-clipboard"></i>
                                     <p>Notes</p>
                                 </a>
                             </div>
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-pencil-alt"></i>
                                     <p>Edit</p>
                                 </a>
                             </div>
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-trash"></i>
                                     <p class="icon-red">Delete</p>
                                 </a>
@@ -221,43 +221,43 @@
                         </div>
                         <div class="dots-list">
                             <!-- <div class="d-flex">
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-eye"></i>
                                                 <p>view</p>
                                             </a>
                                         </div>
                                         <div class="d-flex">
-                                            <a href=""> <i class="fas fa-share-alt"></i>
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
                                                 <p>Share</p>
                                             </a>
 
                                         </div>
                                         <div>
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-clipboard"></i>
                                                 <p>Review</p>
                                             </a>
                                         </div>
                                         <div class="d-flex">
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-archive"></i>
                                                 <p class="icon-red">Archive</p>
                                             </a>
                                         </div> -->
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-clipboard"></i>
                                     <p>Notes</p>
                                 </a>
                             </div>
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-pencil-alt"></i>
                                     <p>Edit</p>
                                 </a>
                             </div>
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-trash"></i>
                                     <p class="icon-red">Delete</p>
                                 </a>
@@ -297,43 +297,43 @@
                         </div>
                         <div class="dots-list">
                             <!-- <div class="d-flex">
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-eye"></i>
                                                 <p>view</p>
                                             </a>
                                         </div>
                                         <div class="d-flex">
-                                            <a href=""> <i class="fas fa-share-alt"></i>
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
                                                 <p>Share</p>
                                             </a>
 
                                         </div>
                                         <div>
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-clipboard"></i>
                                                 <p>Review</p>
                                             </a>
                                         </div>
                                         <div class="d-flex">
-                                            <a href="">
+                                            <a href="javascript:void(0)">
                                                 <i class="fas fa-archive"></i>
                                                 <p class="icon-red">Archive</p>
                                             </a>
                                         </div> -->
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-clipboard"></i>
                                     <p>Notes</p>
                                 </a>
                             </div>
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-pencil-alt"></i>
                                     <p>Edit</p>
                                 </a>
                             </div>
                             <div class="d-flex">
-                                <a href="">
+                                <a href="javascript:void(0)">
                                     <i class="fas fa-trash"></i>
                                     <p class="icon-red">Delete</p>
                                 </a>
