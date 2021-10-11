@@ -473,30 +473,6 @@
                                     </div>
 
                                     <div class="dots-list">
-                                        <!-- <div class="d-flex">
-                                            <a href="javascript:void(0)">
-                                                <i class="fas fa-eye"></i>
-                                                <p>view</p>
-                                            </a>
-                                        </div>
-                                        <div class="d-flex">
-                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
-                                                <p>Share</p>
-                                            </a>
-
-                                        </div>
-                                        <div>
-                                            <a href="javascript:void(0)">
-                                                <i class="fas fa-clipboard"></i>
-                                                <p>Review</p>
-                                            </a>
-                                        </div>
-                                        <div class="d-flex">
-                                            <a href="javascript:void(0)">
-                                                <i class="fas fa-archive"></i>
-                                                <p class="icon-red">Archive</p>
-                                            </a>
-                                        </div> -->
                                         <div class="d-flex">
                                             <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
                                                 <i class="fas fa-clipboard"></i>
