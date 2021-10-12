@@ -150,33 +150,35 @@ nav.navbar {
 }
 
 .sideNave {
-  /* background-color: #c11117d6; */
-  background: linear-gradient(358deg, --main-bg-color, --main-bg-color);
+      background: linear-gradient(
+        147deg, #b1b1cb, #2700ff);
   height: 100%;
   width: 300px;
   position: fixed;
   left: -300px;
   transition: 0.5s all ease-in-out;
 }
-
+.sidenav-logo{
+  color: var(--main-bg-color);
+    font-family: gilroyextrabold;
+    font-size: 30px !important;
+}
 button.signOut {
-  background-color: white;
-  border: 1px solid red;
-  padding: 7px 10px;
+  background: none;
+  border: 1px solid #fff;
   border-radius: 10px;
-  display: flex;
-  align-items: center;
+  padding: 0.5rem 1rem;
 }
 
 button.signOut i {
-  color: #ec1c24;
+  color: #fff;
   font-size: 24px;
   margin-right: 8px;
 }
 
 button.signOut span {
   font-family: gilroybold;
-  color: #000;
+  color: #fff;
   font-weight: 600;
 }
 
