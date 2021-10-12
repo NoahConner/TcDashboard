@@ -653,6 +653,26 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -687,6 +707,26 @@
 
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -746,6 +786,26 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -780,6 +840,26 @@
 
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
 

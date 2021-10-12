@@ -86,7 +86,8 @@
   <div class="sideNave">
     <div class="sidebar sideBardio">
       <div class="sidenav-logo">
-        <img src="./assets/img/SVG/logo.svg" height="" width="100%" alt="logo">
+        Agent TC
+        <!-- <img src="assets/img/SVG/logo_1.svg" height="" width="100%" alt="logo"> -->
       </div>
 
       <div class="sidenav-btns mt5 d-flex flex-column">
@@ -94,45 +95,55 @@
           <div class="img">
             <img src="./assets/img/SVG/profile.svg" height="100%" width="100%" alt="">
           </div>
-          <div class="nameh">
-            Profile
-          </div>
+          <a href="index.php">
+            <div class="nameh">
+              Profile
+            </div>
+          </a>
         </div>
 
         <div class="items d-flex align-items-center">
           <div class="img">
             <img src="./assets/img/SVG/transaction.svg" height="100%" width="100%" alt="">
           </div>
-          <div class="nameh">
-            Transaction
-          </div>
+          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>" href="transaction.php">
+            <div class="nameh">
+              Transaction
+            </div>
+          </a>
         </div>
 
         <div class="items d-flex align-items-center">
           <div class="img">
             <img src="./assets/img/SVG/task.svg" height="100%" width="100%" alt="">
           </div>
-          <div class="nameh">
-            Task
-          </div>
+          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>" href="task.php">
+            <div class="nameh">
+              Task
+            </div>
+          </a>
         </div>
 
         <div class="items d-flex align-items-center">
           <div class="img">
             <img src="./assets/img/SVG/people.svg" height="100%" width="100%" alt="">
           </div>
-          <div class="nameh">
-            People
-          </div>
+          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>" href="people.php">
+            <div class="nameh">
+              People
+            </div>
+          </a>
         </div>
 
         <div class="items d-flex align-items-center">
           <div class="img">
             <img src="./assets/img/SVG/documents.svg" height="100%" width="100%" alt="">
           </div>
-          <div class="nameh">
-            Documents
-          </div>
+          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>" href="documents.php">
+            <div class="nameh">
+              Documents
+            </div>
+          </a>
         </div>
       </div>
 
@@ -145,5 +156,5 @@
 </div>
 
 <div class="mobileNav">
-  <a href="">Agent TC</a>
+  <a href="index.php">Agent TC</a>
 </div>
