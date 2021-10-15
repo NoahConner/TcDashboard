@@ -71,7 +71,7 @@
             <img src="./assets/img/SVG/profile.svg" height="100%" width="100%" alt="">
           </div>
           <a href="index.php">
-            <div class="nameh">
+            <div class="nameh <?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>">
               Profile
             </div>
           </a>
@@ -82,7 +82,7 @@
             <img src="./assets/img/SVG/transaction.svg" height="100%" width="100%" alt="">
           </div>
           <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>" href="transaction.php">
-            <div class="nameh">
+            <div class="nameh <?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>">
               Transaction
             </div>
           </a>
@@ -93,7 +93,7 @@
             <img src="./assets/img/SVG/task.svg" height="100%" width="100%" alt="">
           </div>
           <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>" href="task.php">
-            <div class="nameh">
+            <div class="nameh <?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>">
               Task
             </div>
           </a>
@@ -104,7 +104,7 @@
             <img src="./assets/img/SVG/people.svg" height="100%" width="100%" alt="">
           </div>
           <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>" href="people.php">
-            <div class="nameh">
+            <div class="nameh <?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>">
               People
             </div>
           </a>
@@ -114,8 +114,8 @@
           <div class="img">
             <img src="./assets/img/SVG/documents.svg" height="100%" width="100%" alt="">
           </div>
-          <a class="<?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>" href="documents.php">
-            <div class="nameh">
+          <a class="" href="documents.php">
+            <div class="nameh <?php echo basename($_SERVER['PHP_SELF']) == 'page1.php' ? 'active' : ''; ?>">
               Documents
             </div>
           </a>

@@ -410,7 +410,7 @@ nav .arrow {
 
 .round label {
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #003ec9;
   border-radius: 50%;
   cursor: pointer;
   height: 28px;
@@ -1427,6 +1427,43 @@ a {
   transform: rotate(-135deg);
 }
 
+
+/* new modals */
+.check-lab{
+  color: #000 !important;
+  font-weight: 600 !important;
+}
+.tran-drop-label{
+  background-color: #f5faff;
+  padding:1rem;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+.tran-drop{
+  border: none;
+  border-bottom: 1px solid #003ec9 !important;
+  margin-left: 3rem;
+  background-color: #f5faff;
+  color: #808080;
+    font-weight: 500;
+}
+.tran-modal .modal-blueBtn-square {
+  border-radius: 12px;
+  height: 55px;
+  min-width: 110px;
+  padding: 0 10px;
+}
+.task-main .nav-item{
+  margin-right: 15px;
+}
+.tab-side-but{
+  margin-left: auto;
+}
+.check-inp .upload-check{
+  font-size: 14px;
+  font-weight: 600 !important;
+  color: #666666;
+}
 /* media */
 @media only screen and (min-width: 2560px) {
   .transectiontsection .transsectionImgbox {
@@ -1566,6 +1603,9 @@ a {
   }
   .limBlueCard select {
     margin-top: 10px;
+}
+.tab-side-but{
+  margin-left: 0;
 }
 }
 

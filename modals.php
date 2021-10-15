@@ -23,21 +23,27 @@
                             <div class="tab-pane fade show active" id="v-pills-personal" role="tabpanel" aria-labelledby="v-pills-personal-tab">
                                 <div class="row">
                                     <div class="col-lg-12 mb2">
-                                        <div class="select-all-check d-flex align-items-baseline">
-                                            <input type="checkbox">
-                                            <div class="check-inp">
-                                                <h6>Select All</h6>
+                                        <div class="custom-check d-flex">
+                                            <div class="round">
+                                                <input type="checkbox" id="checkboxs2" />
+                                                <label for="checkboxs2"></label>
                                             </div>
+                                            <label for="" class="check-lab">Select All</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 mb1">
                                         <div class="cstm-check">
                                             <div class="row">
-                                                <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                <div class="col-sm-6 d-flex align-items-baseline flex-column">
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox2" />
+                                                            <label for="checkbox2"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -50,10 +56,15 @@
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox3" />
+                                                            <label for="checkbox3"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -66,10 +77,15 @@
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox4" />
+                                                            <label for="checkbox4"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -84,20 +100,28 @@
                                 <div class="row">
                                     <div class="col-lg-12 mb2">
                                         <div class="select-all-check d-flex align-items-baseline">
-                                            <input type="checkbox">
-                                            <div class="check-inp">
-                                                <h6>Select All</h6>
+                                        <div class="custom-check d-flex">
+                                            <div class="round">
+                                                <input type="checkbox" id="checkboxs3" />
+                                                <label for="checkboxs3"></label>
                                             </div>
+                                            <label for="" class="check-lab">Select All</label>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 mb1">
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox5" />
+                                                            <label for="checkbox5"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -110,10 +134,15 @@
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox6" />
+                                                            <label for="checkbox6"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -126,10 +155,15 @@
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox7" />
+                                                            <label for="checkbox7"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -144,20 +178,28 @@
                                 <div class="row">
                                     <div class="col-lg-12 mb2">
                                         <div class="select-all-check d-flex align-items-baseline">
-                                            <input type="checkbox">
-                                            <div class="check-inp">
-                                                <h6>Select All</h6>
+                                        <div class="custom-check d-flex">
+                                            <div class="round">
+                                                <input type="checkbox" id="checkboxs4" />
+                                                <label for="checkboxs4"></label>
                                             </div>
+                                            <label for="" class="check-lab">Select All</label>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 mb1">
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox8" />
+                                                            <label for="checkbox8"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -170,10 +212,15 @@
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox9" />
+                                                            <label for="checkbox9"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -186,10 +233,15 @@
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox10" />
+                                                            <label for="checkbox10"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -204,20 +256,28 @@
                                 <div class="row">
                                     <div class="col-lg-12 mb2">
                                         <div class="select-all-check d-flex align-items-baseline">
-                                            <input type="checkbox">
-                                            <div class="check-inp">
-                                                <h6>Select All</h6>
+                                        <div class="custom-check d-flex">
+                                            <div class="round">
+                                                <input type="checkbox" id="checkboxs5" />
+                                                <label for="checkboxs5"></label>
                                             </div>
+                                            <label for="" class="check-lab">Select All</label>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 mb1">
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox11" />
+                                                            <label for="checkbox11"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -230,10 +290,15 @@
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox12" />
+                                                            <label for="checkbox12"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -246,10 +311,15 @@
                                         <div class="cstm-check">
                                             <div class="row">
                                                 <div class="col-sm-6 d-flex align-items-baseline">
-                                                    <input type="checkbox">
-                                                    <div class="check-inp">
-                                                        <h6>Jacob Gomez</h6>
-                                                        <label for="">Uploaded by: Jacob Gomez</label>
+                                                    <div class="custom-check d-flex">
+                                                        <div class="round">
+                                                            <input type="checkbox" id="checkbox13" />
+                                                            <label for="checkbox13"></label>
+                                                        </div>
+                                                        <div class="check-inp">
+                                                            <label for="" class="check-lab">Jacob Gomez</label>
+                                                            <label for="" class="upload-check">Uploaded by: Jacob Gomez</label>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6 d-flex align-items-end">
@@ -722,7 +792,7 @@
                         <div class="modal-dash-box1">
                             <h1>Templates</h1>
                             <p>Add an interactive form by selecting one from templates.</p>
-                            <button class="modal-blueBtn-square" data-bs-toggle="modal" data-bs-target="#uploadModal-ah">Add</button>
+                            <button class="modal-blueBtn-square"data-bs-dismiss="modal"  data-bs-toggle="modal" data-bs-target="#uploadModal-ah">Add</button>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -750,3 +820,116 @@
     </div>
 </div>
 <!-- linked -->
+
+<!-- trans document -->
+<div class="modal fade tran-modal" id="doc-trans" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog upload-cstm-modal modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    Add Document to Transaction
+                </h5>
+                <i class="fas fa-times-circle" data-bs-dismiss="modal" aria-label="Close"></i>
+            </div>
+            <div class="modal-body">
+                <div class="custom-check d-flex mt1">
+                    <div class="round">
+                        <input type="checkbox" id="checkboxs1" />
+                        <label for="checkboxs1"></label>
+                    </div>
+                    <label for="">Select All</label>
+                </div>
+                <div class="row mt1">
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkbox2" />
+                                    <label for="checkbox2"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                            <div class="tc-modal-footer d-flex flex-column">
+                                <select class="tran-drop">
+                                    <option value="0">Client Document</option>
+                                    <option value="1">Document</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkbox3" />
+                                    <label for="checkbox3"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                            <div class="tc-modal-footer d-flex flex-column">
+                                <select class="tran-drop">
+                                    <option value="0">Client Document</option>
+                                    <option value="1">Document</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkbox4" />
+                                    <label for="checkbox4"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                            <div class="tc-modal-footer d-flex flex-column">
+                                <select class="tran-drop">
+                                    <option value="0">Client Document</option>
+                                    <option value="1">Document</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkbox5" />
+                                    <label for="checkbox5"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                            <div class="tc-modal-footer d-flex flex-column">
+                                <select class="tran-drop">
+                                    <option value="0">Client Document</option>
+                                    <option value="1">Document</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkbox6" />
+                                    <label for="checkbox6"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                            <div class="tc-modal-footer d-flex flex-column">
+                                <select class="tran-drop">
+                                    <option value="0">Client Document</option>
+                                    <option value="1">Document</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-end mb2 mt1">
+                    <button class="modal-blueBtn-square" type="button">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

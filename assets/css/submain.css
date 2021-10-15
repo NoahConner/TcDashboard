@@ -173,6 +173,7 @@
 
 .upload-cstm-modal .modal-header i {
     font-size: 25px;
+    cursor: pointer;
 }
 
 .modal-dash-box1 h1 {
@@ -339,6 +340,7 @@
     width: 20px;
     border-radius: 50%;
     background-color: #eee;
+    border: 1px solid #003ec9;
 }
 
 
