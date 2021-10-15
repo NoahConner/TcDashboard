@@ -834,8 +834,8 @@
             <div class="modal-body">
                 <div class="custom-check d-flex mt1">
                     <div class="round">
-                        <input type="checkbox" id="checkboxs1" />
-                        <label for="checkboxs1"></label>
+                        <input type="checkbox" id="checkboxd1" />
+                        <label for="checkboxd1"></label>
                     </div>
                     <label for="">Select All</label>
                 </div>
@@ -844,8 +844,8 @@
                         <div class="tran-drop-label d-flex align-items-baseline">
                             <div class="custom-check d-flex">
                                 <div class="round">
-                                    <input type="checkbox" id="checkbox2" />
-                                    <label for="checkbox2"></label>
+                                    <input type="checkbox" id="checkboxd2" />
+                                    <label for="checkboxd2"></label>
                                 </div>
                                 <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
                             </div>
@@ -861,8 +861,8 @@
                         <div class="tran-drop-label d-flex align-items-baseline">
                             <div class="custom-check d-flex">
                                 <div class="round">
-                                    <input type="checkbox" id="checkbox3" />
-                                    <label for="checkbox3"></label>
+                                    <input type="checkbox" id="checkboxd3" />
+                                    <label for="checkboxd3"></label>
                                 </div>
                                 <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
                             </div>
@@ -878,8 +878,8 @@
                         <div class="tran-drop-label d-flex align-items-baseline">
                             <div class="custom-check d-flex">
                                 <div class="round">
-                                    <input type="checkbox" id="checkbox4" />
-                                    <label for="checkbox4"></label>
+                                    <input type="checkbox" id="checkboxd4" />
+                                    <label for="checkboxd4"></label>
                                 </div>
                                 <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
                             </div>
@@ -895,8 +895,8 @@
                         <div class="tran-drop-label d-flex align-items-baseline">
                             <div class="custom-check d-flex">
                                 <div class="round">
-                                    <input type="checkbox" id="checkbox5" />
-                                    <label for="checkbox5"></label>
+                                    <input type="checkbox" id="checkboxd5" />
+                                    <label for="checkboxd5"></label>
                                 </div>
                                 <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
                             </div>
@@ -912,8 +912,8 @@
                         <div class="tran-drop-label d-flex align-items-baseline">
                             <div class="custom-check d-flex">
                                 <div class="round">
-                                    <input type="checkbox" id="checkbox6" />
-                                    <label for="checkbox6"></label>
+                                    <input type="checkbox" id="checkboxd6"/>
+                                    <label for="checkboxd6"></label>
                                 </div>
                                 <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
                             </div>
