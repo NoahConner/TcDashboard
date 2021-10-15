@@ -78,6 +78,12 @@
                                                 <p class="icon-red">Archive</p>
                                             </a>
                                         </div> -->
+                                        <div class="d-flex">
+                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#doc-trans">
+                                    <i class="fas fa-plus"></i>
+                                    <p>Add</p>
+                                </a>
+                            </div>
                             <div class="d-flex">
                                 <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
                                     <i class="fas fa-clipboard"></i>
@@ -149,6 +155,12 @@
                                                 <p class="icon-red">Archive</p>
                                             </a>
                                         </div> -->
+                                        <div class="d-flex">
+                                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#doc-trans">
+                                    <i class="fas fa-plus"></i>
+                                    <p>Add</p>
+                                </a>
+                            </div>
                             <div class="d-flex">
                                 <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
                                     <i class="fas fa-clipboard"></i>

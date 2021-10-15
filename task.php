@@ -26,6 +26,7 @@
                         </div>
                     </div>
                     <ul class="nav nav-pills mb-3" id="pills-tabTask" role="tablist">
+                        <!-- <div class="first-tsk-tab d-flex"> -->
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-tasks" type="button" role="tab" aria-controls="pills-tasks" aria-selected="true">All Tasks</button>
                         </li>
@@ -35,6 +36,15 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-assigned-task" type="button" role="tab" aria-controls="pills-assigned-task" aria-selected="false">Assigned to Me</button>
                         </li>
+                        <!-- </div> -->
+                        <!-- <div class="second-tsk-tab d-flex"> -->
+                        <li class="nav-item tab-side-but" role="presentation">
+                            <button class="nav-link" id="pills-overdue-tab" data-bs-toggle="pill" data-bs-target="#pills-overdue-tasks" type="button" role="tab" aria-controls="pills-overdue-tasks" aria-selected="true">Over Due</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-completed-tab" data-bs-toggle="pill" data-bs-target="#pills-completed-tasks" type="button" role="tab" aria-controls="pills-completed-tasks" aria-selected="false">Completed</button>
+                        </li>
+                        <!-- </div> -->
                     </ul>
 
                     <!-- tabs -->
@@ -535,6 +545,29 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="limBlueCard">
                                     <div class="row">
@@ -572,6 +605,52 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="limBlueCard">
                                     <div class="row">
@@ -609,43 +688,52 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
-                                </div>
-                                <div class="limBlueCard">
-                                    <div class="row">
-                                        <div class="col-lg-12 d-flex align-items-center justify-content-between">
-                                            <h2>
-                                                Ethan Hunt
-                                            </h2>
 
-                                            <div class="phMail d-flex align-items-center">
-                                                <label for="">Transaction Adress: </label>
-                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
-                                            </div>
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div class="phMail d-flex align-items-center">
-                                                <label for="">Assigned to: </label>
-                                                <span>Joseph</span>
-                                            </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
                                         </div>
-                                        <div class="col-sm-4">
-                                            <div class="phMail d-flex align-items-center">
-                                                <label for="">Due Date: </label>
-                                                <span>9/8/2021</span>
-                                            </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
                                         </div>
-                                        <div class="col-sm-4">
-                                            <select name="" id="">
-                                                <option value="">Awaiting Respose</option>
-                                            </select>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
                                         </div>
                                     </div>
 
-                                    <div class="dots">
-                                        <i class="fa fa-ellipsis-v"></i>
-                                    </div>
                                 </div>
                                 <div class="limBlueCard">
                                     <div class="row">
@@ -683,6 +771,194 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -725,6 +1001,29 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="limBlueCard">
                                     <div class="row">
@@ -762,6 +1061,52 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="limBlueCard">
                                     <div class="row">
@@ -799,6 +1144,52 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="limBlueCard">
                                     <div class="row">
@@ -836,6 +1227,52 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="limBlueCard">
                                     <div class="row">
@@ -873,6 +1310,1022 @@
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
                                     </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade all-tasks-tab" id="pills-overdue-tasks" role="tabpanel" aria-labelledby="pills-overdue-tab">
+                            <div class="cardSec task">
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--My tasks tab -->
+                        <div class="tab-pane fade" id="pills-completed-tasks" role="tabpanel" aria-labelledby="pills-completed-tasks-tab">
+                            <div class="cardSec task">
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <!-- <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-eye"></i>
+                                                <p>view</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)"> <i class="fas fa-share-alt"></i>
+                                                <p>Share</p>
+                                            </a>
+
+                                        </div>
+                                        <div>
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Review</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-archive"></i>
+                                                <p class="icon-red">Archive</p>
+                                            </a>
+                                        </div> -->
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-sm-12 d-flex align-items-center justify-content-between">
+                                            <h2>
+                                                Ethan Hunt
+                                            </h2>
+
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Transaction Adress: </label>
+                                                <span>4329 Saint Dominic, St Ann, MO 63074-1110</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Assigned to: </label>
+                                                <span>Joseph</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Due Date: </label>
+                                                <span>9/8/2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <select name="" id="">
+                                                <option value="">Awaiting Respose</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
