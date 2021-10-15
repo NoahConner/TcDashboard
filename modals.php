@@ -722,7 +722,7 @@
                         <div class="modal-dash-box1">
                             <h1>Templates</h1>
                             <p>Add an interactive form by selecting one from templates.</p>
-                            <button class="modal-blueBtn-square" data-bs-toggle="modal" data-bs-target="#uploadModal-ah">Add</button>
+                            <button class="modal-blueBtn-square" data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="modal" data-bs-target="#uploadModal-ah">Add</button>
                         </div>
                     </div>
                     <div class="col-lg-6">
