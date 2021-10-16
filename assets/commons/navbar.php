@@ -16,9 +16,11 @@
           <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'page3.php' ? 'active' : ''; ?>" href="page3.php">page 3</a>
         </li> -->
         <li class="nav-item">
+          <a href="notification.php">
           <div class="notiIco hasBadge">
             <i class="fa fa-bell"></i>
           </div>
+          </a>
         </li>
         <li class="nav-item">
           <div class="notiIco d-flex align-items-center">

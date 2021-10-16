@@ -1,8 +1,11 @@
 .paxs h6,
-.paxs p{
+.paxs p {
     color: #000;
 }
+
+
 /* css by ahmed */
+
 .nav-pills .nav-link {
     background: #f5faff !important;
     border-radius: 10px !important;
@@ -10,35 +13,67 @@
     padding: 12px 1rem !important;
     text-align: left !important;
     color: #003ec9 !important;
-    font-weight:600;
+    font-weight: 600;
 }
-.check-inp{
-    margin-left:10px;
+
+.check-inp {
+    margin-left: 10px;
 }
-.check-inp h6{
-    font-weight:600;
+
+.check-inp h6 {
+    font-weight: 600;
 }
+
 .cstm-check label,
 .example-det label,
-.example-modal p{
+.example-modal p {
     font-size: 14px;
     font-weight: 600;
     color: #666666;
 }
-.example-det .example-date{
+
+.example-det .example-date {
     margin-left: 15px;
 }
-.modal .cstm-check{
-    background:#F5FAFF;
+
+.modal .cstm-check {
+    background: #F5FAFF;
     border-radius: 15px;
     padding: 0.5rem 1rem;
 }
+
 .modal-header {
     background: #003EC9;
     color: #fff;
 }
 
-.upload-modal .modal-header button{
+.notification-card {
+    background-color: #f5faff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.notification-card-text h3 {
+    font-size: 1rem;
+    font-weight: 600 !important;
+    color: #000000 !important;
+}
+
+.notification-card-text h5 {
+    font-size: 14px;
+    margin-bottom: 0%;
+    margin-top: 5px;
+    color: #999999;
+}
+
+.notification-date {
+    color: #999999;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.upload-modal .modal-header button {
     background: #fff;
     border: none;
     border-radius: 50px;
@@ -49,46 +84,56 @@
     width: 20px;
     height: 20px;
 }
-.upload-modal .col-sm-6:nth-child(2){
+
+.upload-modal .col-sm-6:nth-child(2) {
     justify-content: flex-end;
 }
-.example-det{
+
+.example-det {
     display: flex;
     flex-wrap: wrap;
 }
-.example-det label{
-    margin-right:10px;
+
+.example-det label {
+    margin-right: 10px;
 }
-.example1{
+
+.example1 {
     background: #f5faff;
-    padding:0.5rem 5rem 0.5rem 1rem;
-    border-radius:15px;
+    padding: 0.5rem 5rem 0.5rem 1rem;
+    border-radius: 15px;
     position: relative;
 }
-.example-modal .modal-body i{
+
+.example-modal .modal-body i {
     position: absolute;
     right: 10px;
     top: 20px;
     cursor: pointer;
 }
-.red-col a{
-    color:#FF0000 !important;
+
+.red-col a {
+    color: #FF0000 !important;
 }
-.add-note{
-    padding:0.7rem 1rem;
-    color:#003ec9;
+
+.add-note {
+    padding: 0.7rem 1rem;
+    color: #003ec9;
     border: 1px solid #003ec9;
     border-radius: 10px;
-    background:#fff;
+    background: #fff;
     font-weight: 500;
 }
-.upload-modal .copy-btn{
-    background: #003ec9;
-    color:#fff;
-    padding:0.7rem 2rem;
 
+.upload-modal .copy-btn {
+    background: #003ec9;
+    color: #fff;
+    padding: 0.7rem 2rem;
 }
+
+
 /* three dots menu */
+
 .dots-list {
     position: absolute;
     right: 10px;
@@ -98,7 +143,6 @@
     padding: 10px 14px 10px 10px;
     border-radius: 10px;
     transition: 0.5s all ease-in-out;
-   
 }
 
 .dots-list a {
@@ -128,31 +172,37 @@
 .dots-list a .icon-red {
     color: red;
 }
-.hide-dot-menu{
+
+.hide-dot-menu {
     display: block;
 }
-.example-edit-modal .example1{
+
+.example-edit-modal .example1 {
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
-.btn-col{
+
+.btn-col {
     position: relative;
 }
-.btn-col::after{
+
+.btn-col::after {
     content: "";
     position: absolute;
     top: 0;
-    left:10px;
+    left: 10px;
     z-index: 70;
     width: 1px;
     height: 100%;
     background: #999999;
 }
-.pd-r p{
+
+.pd-r p {
     padding-right: 5rem;
 }
 
 
 /* css by hadi */
+
 .cstm-modal {
     position: relative;
     width: 80% !important;
@@ -479,17 +529,12 @@
     border: none !important;
 }
 
-
-
-
-
-
-@media only screen and (max-width:768px){
-    .select-all-check{
+@media only screen and (max-width:768px) {
+    .select-all-check {
         margin-top: 15px;
-    }  
-    .upload-modal .col-lg-12:nth-child(1){
-        margin-bottom:15px !important;
+    }
+    .upload-modal .col-lg-12:nth-child(1) {
+        margin-bottom: 15px !important;
     }
     .example1 {
         padding: 0.5rem 1rem 0.5rem 1rem;
@@ -501,21 +546,23 @@
         padding-right: 0;
     }
     .btn-col::after {
-       display: none;
+        display: none;
     }
 }
-@media only screen and (max-width:414px){
+
+@media only screen and (max-width:414px) {
     .dots-list {
         right: 23px;
         top: 31px;
     }
 }
-@media only screen and (max-width:375px){
-    .upload-modal .col-sm-6:nth-child(2){
+
+@media only screen and (max-width:375px) {
+    .upload-modal .col-sm-6:nth-child(2) {
         margin-top: 5px;
-    }  
-.dots-list{
-    opacity: 0;
-    transition: 0.2s all ease-in;
-}
+    }
+    .dots-list {
+        opacity: 0;
+        transition: 0.2s all ease-in;
+    }
 }
