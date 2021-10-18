@@ -100,13 +100,13 @@
                                 <div class="row">
                                     <div class="col-lg-12 mb2">
                                         <div class="select-all-check d-flex align-items-baseline">
-                                        <div class="custom-check d-flex">
-                                            <div class="round">
-                                                <input type="checkbox" id="checkboxs3" />
-                                                <label for="checkboxs3"></label>
+                                            <div class="custom-check d-flex">
+                                                <div class="round">
+                                                    <input type="checkbox" id="checkboxs3" />
+                                                    <label for="checkboxs3"></label>
+                                                </div>
+                                                <label for="" class="check-lab">Select All</label>
                                             </div>
-                                            <label for="" class="check-lab">Select All</label>
-                                        </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 mb1">
@@ -178,13 +178,13 @@
                                 <div class="row">
                                     <div class="col-lg-12 mb2">
                                         <div class="select-all-check d-flex align-items-baseline">
-                                        <div class="custom-check d-flex">
-                                            <div class="round">
-                                                <input type="checkbox" id="checkboxs4" />
-                                                <label for="checkboxs4"></label>
+                                            <div class="custom-check d-flex">
+                                                <div class="round">
+                                                    <input type="checkbox" id="checkboxs4" />
+                                                    <label for="checkboxs4"></label>
+                                                </div>
+                                                <label for="" class="check-lab">Select All</label>
                                             </div>
-                                            <label for="" class="check-lab">Select All</label>
-                                        </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 mb1">
@@ -256,13 +256,13 @@
                                 <div class="row">
                                     <div class="col-lg-12 mb2">
                                         <div class="select-all-check d-flex align-items-baseline">
-                                        <div class="custom-check d-flex">
-                                            <div class="round">
-                                                <input type="checkbox" id="checkboxs5" />
-                                                <label for="checkboxs5"></label>
+                                            <div class="custom-check d-flex">
+                                                <div class="round">
+                                                    <input type="checkbox" id="checkboxs5" />
+                                                    <label for="checkboxs5"></label>
+                                                </div>
+                                                <label for="" class="check-lab">Select All</label>
                                             </div>
-                                            <label for="" class="check-lab">Select All</label>
-                                        </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 mb1">
@@ -832,7 +832,7 @@
                 <i class="fas fa-times-circle" data-bs-dismiss="modal" aria-label="Close"></i>
             </div>
             <div class="modal-body">
-                <div class="custom-check d-flex mt1">
+                <div class="custom-check d-flex mt1 mb2">
                     <div class="round">
                         <input type="checkbox" id="checkboxd1" />
                         <label for="checkboxd1"></label>
@@ -912,7 +912,7 @@
                         <div class="tran-drop-label d-flex align-items-baseline">
                             <div class="custom-check d-flex">
                                 <div class="round">
-                                    <input type="checkbox" id="checkboxd6"/>
+                                    <input type="checkbox" id="checkboxd6" />
                                     <label for="checkboxd6"></label>
                                 </div>
                                 <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
@@ -926,7 +926,89 @@
                         </div>
                     </div>
                 </div>
-                <div class=" d-flex justify-content-end mb2 mt1">
+                <div class=" d-flex justify-content-end mt1">
+                    <button class="modal-blueBtn-square" type="button">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade tran-modal" id="addPeop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog upload-cstm-modal modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    Add People to Transaction
+                </h5>
+                <i class="fas fa-times-circle" data-bs-dismiss="modal" aria-label="Close"></i>
+            </div>
+            <div class="modal-body ">
+                <div class="row mt1 addPepopq">
+                    <h3>Name</h3>
+                    <h6>Ethan Hunt</h6>
+
+
+                    <h3>Select Transaction</h3>
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkboxd20" />
+                                    <label for="checkboxd20"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkboxd29" />
+                                    <label for="checkboxd29"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkboxd21" />
+                                    <label for="checkboxd21"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkboxd22" />
+                                    <label for="checkboxd22"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb1">
+                        <div class="tran-drop-label d-flex align-items-baseline">
+                            <div class="custom-check d-flex">
+                                <div class="round">
+                                    <input type="checkbox" id="checkboxd23" />
+                                    <label for="checkboxd23"></label>
+                                </div>
+                                <label for="" class="check-lab">4329 Saint Dominic, St Ann, MO 63074-1110</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-end mt1">
                     <button class="modal-blueBtn-square" type="button">Add</button>
                 </div>
             </div>
