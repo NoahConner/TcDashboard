@@ -425,11 +425,11 @@ nav .arrow {
     border: 1px solid #003ec9;
     border-radius: 50%;
     cursor: pointer;
-    height: 28px;
+    height: 26px;
     left: 0;
     position: absolute;
     top: 0;
-    width: 28px;
+    width: 26px;
 }
 
 .round label:after {
@@ -438,7 +438,7 @@ nav .arrow {
     border-right: none;
     content: "";
     height: 6px;
-    left: 7px;
+    left: 6px;
     opacity: 0;
     position: absolute;
     top: 8px;
