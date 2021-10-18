@@ -1020,8 +1020,11 @@ h2 .fa-pencil-alt {
     height: 100%;
     border-radius: 10px;
     text-align: center;
-    padding-top: 13%;
+    /* padding-top: 13%; */
     border: 1px solid var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .transectionlabelpart h3 {
@@ -1091,7 +1094,7 @@ h2 .fa-pencil-alt {
 .docnumber label {
     margin-left: 12px;
     width: 26px;
-    height: 27px;
+    height: 26px;
     text-align: center;
     border-radius: 50px;
     background-color: #f7931e;
@@ -1146,40 +1149,32 @@ h2 .fa-pencil-alt {
     justify-content: space-between;
 }
 
-.transOnFile .onfiletransn {
-    margin-top: 18px;
-    background-color: #003ec9;
+.transOnFile button {
+    margin-top: 15px;
     color: #fff;
+    margin-right: 1rem;
     font-family: gilroymedium;
-    font-size: 13px;
-    padding: 10px 25px 10px 25px;
+    font-size: 14px;
+    padding: 10px 20px;
     border-radius: 7px;
     outline: none;
     border: none;
+}
+
+.transOnFile .onfiletransn {
+    background-color: #003ec9;
+}
+
+.w88 {
+    width: 88%;
 }
 
 .transOnFile .onApproved {
     background-color: #39b54a;
-    margin-top: 18px;
-    color: #fff;
-    font-family: gilroymedium;
-    font-size: 13px;
-    padding: 10px 25px 10px 25px;
-    border-radius: 7px;
-    outline: none;
-    border: none;
 }
 
 .transOnFile .onrequired {
     background-color: #f7931e;
-    margin-top: 18px;
-    color: #fff;
-    font-family: gilroymedium;
-    font-size: 13px;
-    padding: 10px 25px 10px 25px;
-    border-radius: 7px;
-    outline: none;
-    border: none;
 }
 
 .newcardforTransbg {
@@ -1519,6 +1514,9 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
+    .w88 {
+        width: 100%;
+    }
     nav.navbar,
     .sideBard {
         display: none !important;

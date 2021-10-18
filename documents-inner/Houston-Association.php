@@ -14,7 +14,7 @@
                         Houston Association of Realtors Forms
                     </h3>
 
-                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#uploadModal">
+                    <a class="ice-blue-color" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#uploadModal">
                         <i class="fa fa-plus"></i>
                         Add a Document
                     </a>

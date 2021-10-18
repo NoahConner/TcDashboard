@@ -24,7 +24,15 @@
                                         <span>Back To Transaction</span>
                                     </div>
                                 </a>
-                                <button class="blueBtnRound squareBtn">Save</button>
+                                <!-- <div class="blueBtnRound squareBtn">
+                                    <i class="fas fa-eye"></i>
+                                    <span>view</span>
+                                </div> -->
+                                <button class="greyBtnRound squareBtn">
+                                    <i class="fas fa-eye"></i>
+                                    view
+                                </button>
+                                <!-- <button class="blueBtnRound squareBtn">Save</button> -->
                             </div>
                         </div>
                     </div>
@@ -78,7 +86,7 @@
                                     </div>
                                     <div class="transCreatedbox1">
                                         <label for="">
-                                            Created:
+                                        Closing:
                                         </label>
                                         <span>
                                             09/09/2021, 2:45 AM
@@ -119,7 +127,7 @@
                                 <div class="transShareFolderbox1">
                                     <i class="fas fa-archive newtransIcon"></i>
                                     <label class="transred" for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
-                                    Archive Folder
+                                        Archive Folder
                                     </label>
                                 </div>
                             </div>
@@ -185,7 +193,7 @@
 
                                 </div>
                             </div>
-                            <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
+                            <!-- <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
                                 <div class="row">
                                     <div class="ftrans">
                                         <div class="col-lg-12">
@@ -246,14 +254,14 @@
                                     </div>
 
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
                                 <div class="row">
                                     <div class="ftrans">
                                         <div class="col-lg-12">
                                             <h2>
-                                                Information about Brokerage Services
+                                            Wire Fraud Warning
                                             </h2>
                                         </div>
                                     </div>
@@ -276,7 +284,7 @@
                                 </div>
                                 <div class="transOnFile">
                                     <button class="onApproved">
-                                        On File
+                                        Approved
                                     </button>
                                 </div>
 
@@ -317,7 +325,7 @@
                                     <div class="ftrans">
                                         <div class="col-lg-12">
                                             <h2>
-                                                Information about Brokerage Services
+                                            Buyer's Representation Agreement
                                             </h2>
                                         </div>
                                     </div>
@@ -332,7 +340,7 @@
                                 </div>
                                 <div class="transOnFile">
                                     <button class="onrequired">
-                                        On File
+                                        Required Now
                                     </button>
                                 </div>
 
@@ -395,7 +403,7 @@
                                 <div class="transShareFolderbox1">
                                     <i class="fas fa-archive newtransIcon"></i>
                                     <label class="transred" for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
-                                    Archive Folder
+                                        Archive Folder
                                     </label>
                                 </div>
                             </div>
@@ -468,7 +476,7 @@
                                     <div class="ftrans">
                                         <div class="col-lg-12">
                                             <h2>
-                                                Information about Brokerage Services
+                                            Wire Fraud Warning
                                             </h2>
                                         </div>
                                     </div>
@@ -491,7 +499,7 @@
                                 </div>
                                 <div class="transOnFile">
                                     <button class="onApproved">
-                                        On File
+                                        Approved
                                     </button>
                                 </div>
 
@@ -532,7 +540,7 @@
                                     <div class="ftrans">
                                         <div class="col-lg-12">
                                             <h2>
-                                                Information about Brokerage Services
+                                            Buyer's Representation Agreement
                                             </h2>
                                         </div>
                                     </div>
@@ -560,7 +568,235 @@
                                 </div>
                                 <div class="transOnFile">
                                     <button class="onrequired">
+                                        Required Now
+                                    </button>
+                                </div>
+
+
+                                <div class="dots">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="addAnothorDoc d-flex justify-content-end">
+                                <i class="fas fa-plus"></i>
+                                <label for="" data-bs-toggle="modal" data-bs-target="#uploadModal">
+                                    Add Another Document
+                                </label>
+                            </div>
+                        </div>
+                        <div class="transdivforpadding mt3 mb1">
+                            <div class="clientDocheading d-flex">
+                                <h3>
+                                Closing Documents </h3>
+                                <div class="docnumber">
+                                    <label for="">
+                                        1
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="transShareFolderbox d-flex justify-content-end">
+                                <div class="transShareFolderbox1">
+                                    <i class="fas fa-share-alt-square newtransIcon"></i>
+                                    <label for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
+                                        Share Folder
+                                    </label>
+                                </div>
+                                <div class="transShareFolderbox1">
+                                    <i class="fas fa-archive newtransIcon"></i>
+                                    <label class="transred" for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
+                                        Archive Folder
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
+                                <div class="row">
+                                    <div class="ftrans">
+                                        <div class="col-lg-12">
+                                            <h2>
+                                                Information about Brokerage Services
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Uploaded by: </label>
+                                                <span>78945612
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Email:
+                                                </label>
+                                                <span>ethan@yahoo.com</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transOnFile">
+                                    <button class="onfiletransn">
                                         On File
+                                    </button>
+                                </div>
+
+
+                                <div class="dots">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
+                                <div class="row">
+                                    <div class="ftrans">
+                                        <div class="col-lg-12">
+                                            <h2>
+                                            Wire Fraud Warning
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Uploaded by: </label>
+                                                <span>78945612
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Email:
+                                                </label>
+                                                <span>ethan@yahoo.com</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transOnFile">
+                                    <button class="onApproved">
+                                        Approved
+                                    </button>
+                                </div>
+
+
+                                <div class="dots">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </div>
+                                <div class=" dots-list">
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-eye"></i>
+                                            View
+                                        </a>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-share"></i>
+                                            Share
+                                        </a>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-file-signature"></i>
+                                            Review
+                                        </a>
+                                    </div>
+                                    <div class="d-flex red-col">
+                                        <a href="javascript:void(0)">
+                                            <i class="fa fa-archive"></i>
+                                            Archive
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="limBlueCard newcardforTrans  newcardforTrans2 newcardforTransbg  mb2">
+                                <div class="row">
+                                    <div class="ftrans">
+                                        <div class="col-lg-12">
+                                            <h2>
+                                            Buyer's Representation Agreement
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <label for="">
+                                                This Required file should be attatched now
+                                            </label>
+                                        </div>
+                                        <!-- <div class="col-lg-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Uploaded by: </label>
+                                                <span>78945612
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Email:
+                                                </label>
+                                                <span>ethan@yahoo.com</span>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="transOnFile">
+                                    <button class="onrequired">
+                                        Required Now
                                     </button>
                                 </div>
 
@@ -622,33 +858,45 @@
 
                         <div class="transdivforpadding">
                             <div class="cardSec Team mb1">
-                                <div class="limBlueCard">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <h2>
-                                                Ethan Nizami
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <select name="" id="">
-                                                <option value="">Co-Seller Agent</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="phMail d-flex align-items-center">
-                                                <label for="">Phone: </label>
-                                                <span>78945612</span>
+                                <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
+                                    <div class="row w88">
+                                        <div class="ftrans">
+                                            <div class="col-lg-12 text-dark">
+                                                <h2>
+                                                    Ethan Nizami
+                                                </h2>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div class="phMail d-flex align-items-center">
-                                                <label for="">Email: </label>
-                                                <span>ethan@yahoo.com</span>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="phMail d-flex align-items-center">
+                                                    <label for="">Assigned to:</label>
+                                                    <span>Joseph</span>
+                                                </div>
                                             </div>
+
+                                            <div class="col-lg-4">
+                                                <div class="phMail d-flex align-items-center">
+                                                    <label for="">Due Date: </label>
+                                                    <span>9/8/2021</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <select name="" id="">
+                                                    <option value="">Not Started</option>
+                                                    <option value="">In Progress</option>
+                                                    <option value="">Awaiting Respose</option>
+                                                </select>
+                                            </div>
+
                                         </div>
                                     </div>
+                                    <div class="transOnFile">
+                                        <button class="onApproved">
+                                            Completed
+                                        </button>
+                                    </div>
+
 
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
@@ -677,33 +925,45 @@
 
                             </div>
                             <div class="cardSec Team mb1">
-                                <div class="limBlueCard">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <h2>
-                                                Ethan Nizami
-                                            </h2>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <select name="" id="">
-                                                <option value="">Co-Seller Agent</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="phMail d-flex align-items-center">
-                                                <label for="">Phone: </label>
-                                                <span>78945612</span>
+                                <div class="limBlueCard newcardforTrans  newcardforTrans2  mb2">
+                                    <div class="row w88">
+                                        <div class="ftrans">
+                                            <div class="col-lg-12 text-dark">
+                                                <h2>
+                                                    Ethan Nizami
+                                                </h2>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
-                                            <div class="phMail d-flex align-items-center">
-                                                <label for="">Email: </label>
-                                                <span>ethan@yahoo.com</span>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="phMail d-flex align-items-center">
+                                                    <label for="">Assigned to:</label>
+                                                    <span>Joseph</span>
+                                                </div>
                                             </div>
+
+                                            <div class="col-lg-4">
+                                                <div class="phMail d-flex align-items-center">
+                                                    <label for="">Due Date: </label>
+                                                    <span>9/8/2021</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <select name="" id="">
+                                                    <option value="">Not Started</option>
+                                                    <option value="">In Progress</option>
+                                                    <option value="">Awaiting Respose</option>
+                                                </select>
+                                            </div>
+
                                         </div>
                                     </div>
+                                    <div class="transOnFile">
+                                        <button class="onApproved">
+                                            Completed
+                                        </button>
+                                    </div>
+
 
                                     <div class="dots">
                                         <i class="fa fa-ellipsis-v"></i>
@@ -864,6 +1124,66 @@
                                 </div>
 
                             </div>
+                        </div>
+                        <div class="transdivforpadding mt3">
+                            <div class="taskheading">
+                                <h5>Buyer Team</h5>
+                            </div>
+                            <div class="cardSec mb1">
+                                <div class="limBlueCard">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <h2>
+                                                Ethan Nizami
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <select name="" id="">
+                                                <option value="">Co-Seller Agent</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Phone: </label>
+                                                <span>78945612</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="phMail d-flex align-items-center">
+                                                <label for="">Email: </label>
+                                                <span>ethan@yahoo.com</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="dots">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </div>
+                                    <div class="dots-list">
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleAdd">
+                                                <i class="fas fa-clipboard"></i>
+                                                <p>Notes</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-pencil-alt"></i>
+                                                <p>Edit</p>
+                                            </a>
+                                        </div>
+                                        <div class="d-flex">
+                                            <a href="javascript:void(0)">
+                                                <i class="fas fa-trash"></i>
+                                                <p class="icon-red">Delete</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
