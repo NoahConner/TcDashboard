@@ -98,6 +98,27 @@
                             <div class="dots">
                                 <i class="fa fa-ellipsis-v"></i>
                             </div>
+                            <div class="dots-list" style="opacity: 0; display: none;">
+
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-clipboard"></i>
+                                        <p>Notes</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        <p>Edit</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-trash"></i>
+                                        <p class="icon-red">Delete</p>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="limBlueCard limcustom">
                             <div class="row">
@@ -135,6 +156,27 @@
 
                             <div class="dots">
                                 <i class="fa fa-ellipsis-v"></i>
+                            </div>
+                            <div class="dots-list" style="opacity: 0; display: none;">
+
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-clipboard"></i>
+                                        <p>Notes</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        <p>Edit</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-trash"></i>
+                                        <p class="icon-red">Delete</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -176,6 +218,27 @@
 
                             <div class="dots">
                                 <i class="fa fa-ellipsis-v"></i>
+                            </div>
+                            <div class="dots-list" style="opacity: 0; display: none;">
+
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-clipboard"></i>
+                                        <p>Notes</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        <p>Edit</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-trash"></i>
+                                        <p class="icon-red">Delete</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
@@ -352,9 +415,7 @@
                             <label for="">Move-In Date </label>
                             <input type="date" value="Dummy ">
                         </div>
-
                     </div>
-
                     <!-- Referral -->
                     <div class="mt3 mb2 d-flex align-items-center justify-content-between">
                         <h1 class="mainH1">
@@ -364,15 +425,13 @@
                     <div class="row">
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Referral %</label>
-                            <input type="date" value="Dummy">
+                           <input type="text" value="90%">
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Referral Source</label>
-                            <input type="date" value="Dummy">
+                            <input type="text" value="Dummy">
                         </div>
-
                     </div>
-
                     <!-- Listing Information -->
                     <div class="mt3 mb2 d-flex align-items-center justify-content-between">
                         <h1 class="mainH1">
@@ -390,11 +449,11 @@
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Original Price </label>
-                            <input type="text" value=" Dummy">
+                            <input type="text" value="$700">
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Current Price </label>
-                            <input type="text" value=" Dummy">
+                            <input type="text" value="$650">
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">HomeOwner`s Association</label>
@@ -424,11 +483,11 @@
                     <div class="row">
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Legal Discription</label>
-                            <input type="date" value=" Dummy">
+                            <input type="text" value=" Dummy">
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Subdivision</label>
-                            <input type="date" value=" Dummy">
+                            <input type="text" value=" Dummy">
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Lot</label>
@@ -462,7 +521,7 @@
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Bed Rooms</label>
-                            <input type="date" value=" Dummy">
+                            <input type="text" value=" Dummy">
                         </div>
                         <div class="col-lg-4 d-flex flex-column mb3">
                             <label for="">Square Footage</label>

@@ -2,8 +2,8 @@ var nav = document.getElementById("MainNav");
 var scrollio;
 let scrollCondition = false;
 
-$(document).ready(function () {
-    $(".dropdown").hover(function () {
+$(document).ready(function() {
+    $(".dropdown").hover(function() {
         var dropdownMenu = $(this).children(".dropdown-menu");
         if (dropdownMenu.is(":visible")) {
             dropdownMenu.parent().toggleClass("open");
@@ -59,7 +59,7 @@ $(document).ready(() => {
             document
                 .getElementsByClassName("my-scrollbar")[0]
                 .addEventListener("wheel", (e) => {
-                     scrollContent(e.deltaY);
+                    scrollContent(e.deltaY);
                 });
 
             if (
@@ -77,24 +77,24 @@ $(document).ready(() => {
         });
     }
 });
-function scrollContent(e){
+
+function scrollContent(e) {
     var isElementInView = Utils.isElementInView($('.copyright'), false);
-    if(scrollCount >= 0 ){
-        if(e < 100 && scrollCount != 0){
-            scrollCount+=e;
-        }else if(e === 100){
-            if(isElementInView){
+    if (scrollCount >= 0) {
+        if (e < 100 && scrollCount != 0) {
+            scrollCount += e;
+        } else if (e === 100) {
+            if (isElementInView) {
                 scrollCount = scrollCount
+            } else {
+                scrollCount += 100
             }
-            else{
-                scrollCount+=100
-            }
-            scrollCount+=100;
+            scrollCount += 100;
         }
-    }else{
+    } else {
         scrollCount = 0
     }
-    if (screen.width >= 1024 && !_iOSDevice){
+    if (screen.width >= 1024 && !_iOSDevice) {
         window.scroll(0, scrollCount);
     }
     // console.log(scrollCount)
@@ -127,7 +127,7 @@ function Utils() {
 
 Utils.prototype = {
     constructor: Utils,
-    isElementInView: function (element, fullyInView) {
+    isElementInView: function(element, fullyInView) {
         var pageTop = $(window).scrollTop();
         var pageBottom = pageTop + $(window).height();
         var elementTop = $(element).offset().top;
@@ -144,54 +144,60 @@ var Utils = new Utils();
 
 
 // burger
-$(document).ready(function(){
-	$('#nav-icon1').click(function(){
-		$(this).toggleClass('open');
-        if(this.classList.contains('open')){
-            $('.sider').css('display','block')
-            setTimeout(()=>{
-                $('.sider').css('opacity','1');
-                $('.sideNave').css('left','0')
+$(document).ready(function() {
+    $('#nav-icon1').click(function() {
+        $(this).toggleClass('open');
+        if (this.classList.contains('open')) {
+            $('.sider').css('display', 'block')
+            setTimeout(() => {
+                $('.sider').css('opacity', '1');
+                $('.sideNave').css('left', '0')
             })
-        }else{
-            
-            $('.sideNave').css('left','-300px')
-            setTimeout(()=>{
-                $('.sider').css('opacity','0');
-            },300)
-            setTimeout(()=>{
-                $('.sider').css('display','none')
-            },600)
+        } else {
+
+            $('.sideNave').css('left', '-300px')
+            setTimeout(() => {
+                $('.sider').css('opacity', '0');
+            }, 300)
+            setTimeout(() => {
+                $('.sider').css('display', 'none')
+            }, 600)
         }
-	});
-    if(window.innerWidth > 1024){
-        $('.mainDiv.my-scrollbar .main').css('min-height',window.innerHeight-82+'px')
+    });
+    if (window.innerWidth > 1024) {
+        $('.mainDiv.my-scrollbar .main').css('min-height', window.innerHeight - 82 + 'px')
     }
-    $('.dots-list').css({'opacity':"0","display":"none"})
-    $('.dots').on('click',(e)=>{
-        if(e.target.parentNode.nextElementSibling.style.opacity == 0){
+
+    $('.dots-list').css({ 'opacity': "0", "display": "none" })
+    $('.dots').on('click', (e) => {
+        if (e.target.parentNode.nextElementSibling.style.opacity == 0) {
             e.target.parentNode.nextElementSibling.style.display = 'block'
-            setTimeout(()=>{
+            setTimeout(() => {
                 e.target.parentNode.nextElementSibling.style.opacity = '1'
-            },100)
-        }else{
+            }, 100)
+        } else {
             e.target.parentNode.nextElementSibling.style.opacity = '0'
-            setTimeout(()=>{
+            setTimeout(() => {
                 e.target.parentNode.nextElementSibling.style.display = 'none'
-            },200)
+            }, 200)
         }
-        console.log( )
+
     })
 
+
 });
-// tasks menu
-// $(".fa-ellipsis-v").on('click',()=>{
-//     $(".task-menu").toggleClass("show-menu")
-// })
-// // three dots js
-// $(".three-dot1").on('click',()=>{
-//     $(".dots-list1").toggleClass("hide-dot-menu")
-// })
-// $(".three-dot2").on('click',()=>{
-//     $(".dots-list2").toggleClass("hide-dot-menu")
-// })
+
+
+$(document).click(function(e) {
+
+    // Check if click was triggered on or within #menu_content
+    // if ($(e.target).closest(".dots").length > 0) {
+    //     return false;
+    // }
+
+    if ($(e.target).hasClass('fa-ellipsis-v') || $(e.target).hasClass('dots')) {
+        return
+    } else {
+        $('.dots-list').css({ 'opacity': "0", "display": "none" })
+    }
+});
