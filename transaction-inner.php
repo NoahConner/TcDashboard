@@ -119,7 +119,7 @@
                                 <div class="transShareFolderbox1">
                                     <i class="fas fa-archive newtransIcon"></i>
                                     <label class="transred" for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
-                                        Share Folder
+                                    Archive Folder
                                     </label>
                                 </div>
                             </div>
@@ -164,13 +164,13 @@
                                             View
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-share"></i>
                                             Share
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-file-signature"></i>
                                             Review
@@ -226,13 +226,13 @@
                                             View
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-share"></i>
                                             Share
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-file-signature"></i>
                                             Review
@@ -291,13 +291,13 @@
                                             View
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-share"></i>
                                             Share
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-file-signature"></i>
                                             Review
@@ -347,13 +347,13 @@
                                             View
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-share"></i>
                                             Share
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-file-signature"></i>
                                             Review
@@ -395,7 +395,7 @@
                                 <div class="transShareFolderbox1">
                                     <i class="fas fa-archive newtransIcon"></i>
                                     <label class="transred" for="" data-bs-toggle="modal" data-bs-target="#sharemodal">
-                                        Share Folder
+                                    Archive Folder
                                     </label>
                                 </div>
                             </div>
@@ -442,13 +442,13 @@
                                             View
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-share"></i>
                                             Share
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-file-signature"></i>
                                             Review
@@ -506,13 +506,13 @@
                                             View
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-share"></i>
                                             Share
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-file-signature"></i>
                                             Review
@@ -575,13 +575,13 @@
                                             View
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-share"></i>
                                             Share
                                         </a>
                                     </div>
-                                    <div class="d-flex red-col">
+                                    <div class="d-flex">
                                         <a href="javascript:void(0)">
                                             <i class="fa fa-file-signature"></i>
                                             Review

@@ -98,6 +98,27 @@
                             <div class="dots">
                                 <i class="fa fa-ellipsis-v"></i>
                             </div>
+                            <div class="dots-list" style="opacity: 0; display: none;">
+
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-clipboard"></i>
+                                        <p>Notes</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        <p>Edit</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-trash"></i>
+                                        <p class="icon-red">Delete</p>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <div class="limBlueCard limcustom">
                             <div class="row">
@@ -135,6 +156,27 @@
 
                             <div class="dots">
                                 <i class="fa fa-ellipsis-v"></i>
+                            </div>
+                            <div class="dots-list" style="opacity: 0; display: none;">
+
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-clipboard"></i>
+                                        <p>Notes</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        <p>Edit</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-trash"></i>
+                                        <p class="icon-red">Delete</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -176,6 +218,27 @@
 
                             <div class="dots">
                                 <i class="fa fa-ellipsis-v"></i>
+                            </div>
+                            <div class="dots-list" style="opacity: 0; display: none;">
+
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-clipboard"></i>
+                                        <p>Notes</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-pencil-alt"></i>
+                                        <p>Edit</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex">
+                                    <a href="javascript:void(0)">
+                                        <i class="fas fa-trash"></i>
+                                        <p class="icon-red">Delete</p>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
